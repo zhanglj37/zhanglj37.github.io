@@ -9,8 +9,8 @@
 
 18名棒球运动员在1970年赛季的前45次的平均击中率(y变量)
 
-```{r include=FALSE}
-main.folder <-  "D:/0_document/2_material/2_statistic learning/Maryland_Bayes/notes/Multilevel Modeling/"
+```{r}
+main.folder <-  getwd()
 R.folder <- paste0(main.folder, "R/")
 data.folder <- paste0(main.folder, "Data/")
 jags.folder <- paste0(main.folder, "jags/")
@@ -18,7 +18,7 @@ model.folder <- paste0(jags.folder, "MLM Batting Averages/")
 data <- read.csv(file=paste0(data.folder, "Effron Morris Data.csv"), header=TRUE)
 ```
 
-```{r echo=TRUE}
+```{r}
 head(data)
 ```
 <pre><code>##               name  team league     y
@@ -31,7 +31,7 @@ head(data)
 
 ## 模型部分代码
 
-```{r echo=TRUE, message=FALSE}
+```{r}
 library(rjags)
 library(mcmcplots)
 
@@ -87,7 +87,7 @@ entities.to.monitor <- c("theta", "mu.theta", "sigma.squared.theta")
 
 ## 设定MCMC算法初始值及迭代次数等
 
-```{r echo=TRUE}
+```{r}
 ## set initial value
 theta.inits.1 <- runif(n,0,.1)
 mu.theta.inits.1 <- .5
@@ -144,7 +144,7 @@ n.iters.per.chain.after.burnin = n.iters.total.per.chain - n.burnin
 
 ## 运行模型
 
-```{r echo=TRUE}
+```{r}
 # Initialize the model
 # Write out the model to a file
 model.file.name <- "MLM Batting Averages.txt"
@@ -182,7 +182,7 @@ coda.options(combine.stats=TRUE, combine.plots=TRUE)
 
 ## 输出结果
 
-```{r echo=TRUE}
+```{r}
 # Extract the summary statistics
 #   Usual
 #   Percentiles
