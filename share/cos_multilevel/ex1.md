@@ -15,7 +15,7 @@ R.folder <- paste0(main.folder, "R/")
 data.folder <- paste0(main.folder, "Data/")
 jags.folder <- paste0(main.folder, "jags/")
 model.folder <- paste0(jags.folder, "MLM Batting Averages/")
-data <- read.csv(file=paste0(data.folder, "Effron Morris Data.csv"), header=TRUE)
+data <- read.csv(file=paste0(data.folder, "multilevel.csv"), header=TRUE)
 ```
 
 ```{r}
