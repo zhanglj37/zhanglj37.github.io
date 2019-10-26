@@ -33,6 +33,7 @@ head(data)
 
 ```{r}
 library(rjags)
+# 需要先下载JAGS软件 http://mcmc-jags.sourceforge.net/
 library(mcmcplots)
 
 # Define Model
