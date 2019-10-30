@@ -29,7 +29,7 @@ head(data)
 ## 5        Ken Berry   Chi     AL 0.311
 ## 6      Jim Spencer   Cal     AL 0.311</code></pre>
 
-## 模型部分代码
+## 设定模型
 
 ```{r}
 library(rjags)
