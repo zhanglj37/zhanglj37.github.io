@@ -268,7 +268,7 @@ mcmcplot(
 
 ## 假设模型在rjags中的实现
 
-![公式](file = "https://zhanglj37.github.io/images/cos-multilevel/model.PNG")
+![公式](file = "https://zhanglj37.github.io/share/cos-multilevel/model.PNG")
 
 
 ### 代码
