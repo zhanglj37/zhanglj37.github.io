@@ -268,7 +268,7 @@ mcmcplot(
 
 ## 假设模型在rjags中的实现
 
-[公式](model.png)
+[公式](model.PNG)
 
 ### 代码
 ```{r}
