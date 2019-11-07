@@ -54,7 +54,7 @@ Between Level
 
 ## 单变量模型在rjags中的实现
 
-## 导入数据 & 设定模型
+### 导入数据 & 设定模型
 ```{r}
 varnames <- c("deptid", "morale", "satpay", "female", "white", "pctbelow", "lev1wt","lev2wt")
 data <- read.table(file="ch3new.dat")
@@ -243,14 +243,10 @@ write.table(summary.statistics,"summary_model1.txt")
 	   
 ### 结果
 ```{r}
-                Mean        SD    Naive SE Time-series SE 95% HPD lower
-sigma.psi  33.306586 0.4110150 0.003355923    0.003451017     32.535797
-sigma.psiu  5.403783 0.6696105 0.005467347    0.006560731      4.177738
-umu        26.428779 0.1903632 0.001554309    0.001702034     26.055863
-           95% HPD Upper
-sigma.psi      34.135397
-sigma.psiu      6.755166
-umu            26.806662
+                Mean        SD    Naive SE Time-series SE 95% HPD lower 95% HPD Upper
+sigma.psi  33.306586 0.4110150 0.003355923    0.003451017     32.535797     34.135397
+sigma.psiu  5.403783 0.6696105 0.005467347    0.006560731      4.177738      6.755166
+umu        26.428779 0.1903632 0.001554309    0.001702034     26.055863     26.806662
 ```
 
 ### 后验分布图，及每条MCMC链的运行结果，可以检验模型是否收敛
