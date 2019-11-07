@@ -268,11 +268,7 @@ mcmcplot(
 
 ## 假设模型在rjags中的实现
 
-`$$
-Level 1: y_{ij} = \beta_{0j} + \beta_{1j} satpay_{ij} + \beta_{2j} female_{ij} + \beta_{3j} white_{ij} + \epsilon_{ij}
-\\Level 2: \beta_{0j} = \gamma_{00} + \gamma_{01} pctbelow_j + \mu_{0j}
-\\         \beta_{1j} = \gamma_{10} + \gamma_{11} pctbelow_j + \mu_{1j}
-$$`
+[公式](model.png)
 
 ### 代码
 ```{r}
