@@ -98,6 +98,7 @@ for (i in 1:N[g]){
 
 # data
 temp = read.table("groupsize.txt")
+# "groupsize.txt" 见https://zhanglj37.github.io/share/cos_multilevel/groupsize
 g = 165
 n = sum(temp[,1])
 jags.data <- list(y = data[,2], N = temp[,1], 
