@@ -7,7 +7,7 @@
 
 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
 
-```{r}
+```r
 TITLE:	 Model 4: Explaining variation in the level-2 intercept and slope;
 DATA:  FILE IS: C:\ Mplus1\ch3new.dat;
 	     Format is 5f8.0, 3f8.2;
@@ -55,7 +55,7 @@ Between Level
 ## 单变量模型在rjags中的实现
 
 ### 导入数据 & 设定模型
-```{r}
+```r
 varnames <- c("deptid", "morale", "satpay", "female", "white", "pctbelow", "lev1wt","lev2wt")
 data <- read.table(file="ch3new.dat")
 data[,3:6] <- scale(data[,3:6])
@@ -109,7 +109,7 @@ entities.to.monitor <- c("umu", "sigma.psi", "sigma.psiu")
 ```
 
 ### 设定MCMC算法初始值及迭代次数等
-```{r}
+```r
 ## set initial value
 u.inits.1 <- rep(0,g)
 umu.inits.1 <- 0
@@ -176,7 +176,7 @@ n.iters.per.chain.after.burnin = n.iters.total.per.chain - n.burnin
 ```
 
 ### 运行模型
-```{r}
+```r
 # Initialize the model
 # Write out the model to a file
 model.file.name <- "MLM2_model1.txt"
@@ -243,7 +243,7 @@ write.table(summary.statistics,"summary_model1.txt")
        
 	   
 ### 结果
-```{r}
+```r
                 Mean        SD    Naive SE Time-series SE 95% HPD lower 95% HPD Upper
 sigma.psi  33.306586 0.4110150 0.003355923    0.003451017     32.535797     34.135397
 sigma.psiu  5.403783 0.6696105 0.005467347    0.006560731      4.177738      6.755166
@@ -251,7 +251,7 @@ umu        26.428779 0.1903632 0.001554309    0.001702034     26.055863     26.8
 ```
 
 ### 后验分布图，及每条MCMC链的运行结果，可以检验模型是否收敛
-```{r}
+```r
 library(mcmcplots)
 # Plot the results
 mcmcplot(
@@ -268,7 +268,7 @@ mcmcplot(
 
 
 ### 代码
-```{r}
+```r
 varnames <- c("deptid", "morale", "satpay", "female", "white", "pctbelow", "lev1wt","lev2wt")
 data <- read.table(file="ch3new.dat")
 #data <- scale(data)
@@ -528,7 +528,7 @@ mcmcplot(
 ```
 
 ### 结果
-```{r}
+```r
                        Mean          SD     Naive SE Time-series SE 95% HPD lower 95% HPD Upper
 beta2           0.009085682 0.074093966 3.492823e-04   3.611701e-04  -0.136651645   0.153880271
 beta3           0.905934469 0.078113294 3.682296e-04   4.163965e-04   0.753560122   1.059000079

@@ -9,7 +9,7 @@
 
 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
 
-```{r}
+```r
 main.folder <-  getwd()
 R.folder <- paste0(main.folder, "R/")
 data.folder <- paste0(main.folder, "Data/")
@@ -18,7 +18,7 @@ model.folder <- paste0(jags.folder, "MLM Batting Averages/")
 data <- read.csv(file=paste0(data.folder, "multilevel.csv"), header=TRUE)
 ```
 
-```{r}
+```r
 head(data)
 ```
 <pre><code>##               name  team league     y
@@ -31,7 +31,7 @@ head(data)
 
 ## 设定模型
 
-```{r}
+```r
 library(rjags)
 # 需要先下载JAGS软件 http://mcmc-jags.sourceforge.net/
 library(mcmcplots)
@@ -90,7 +90,7 @@ entities.to.monitor <- c("theta", "mu.theta", "sigma.squared.theta")
 
 ## 设定MCMC算法初始值及迭代次数等
 
-```{r}
+```r
 ## set initial value
 theta.inits.1 <- runif(n,0,.1)
 mu.theta.inits.1 <- .5
@@ -147,7 +147,7 @@ n.iters.per.chain.after.burnin = n.iters.total.per.chain - n.burnin
 
 ## 运行模型
 
-```{r}
+```r
 # Initialize the model
 # Write out the model to a file
 model.file.name <- "MLM Batting Averages.txt"
@@ -185,7 +185,7 @@ coda.options(combine.stats=TRUE, combine.plots=TRUE)
 
 ## 输出结果
 
-```{r}
+```r
 # Extract the summary statistics
 #   Usual
 #   Percentiles
