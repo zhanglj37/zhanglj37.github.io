@@ -1,7 +1,7 @@
 
 # 实例2：数据、代码和结果
 
-
+[TOC]
 
 ## 单变量模型在mplus中的实现
 
@@ -240,8 +240,8 @@ colnames(summary.statistics) <- c(
 write.table(summary.statistics,"summary_model1.txt")
 
 ```
-       
-	   
+
+
 ### 结果
 ```r
                 Mean        SD    Naive SE Time-series SE 95% HPD lower 95% HPD Upper
@@ -258,14 +258,40 @@ mcmcplot(
   mcmcout = draws.to.analyze,
   filename = "MCMCoutput_model1"
 )
-```   
+```
 [后验分布图](ex2/model1/MCMCoutput_model1.html)
+
+## 假设模型在Mplus中的实现
+
+```r
+TITLE:	 Model 4: Explaining variation in the level-2 intercept and slope;
+DATA:  FILE IS: C:\ Mplus1\ch3new.dat;
+	     Format is 5f8.0, 3f8.2;
+VARIABLE:	
+        Names are deptid morale satpay female white pctbelow lev1wt lev2wt;
+        Usevariables are deptid morale satpay female white pctbelow;
+        Cluster is deptid;  !分组变量为deptid
+        Between = pctbelow; !定义组间变量
+        Within = satpay female white; 
+Define:	Center satpay female white pctbelow (grandmean);  !中心化处理
+ANALYSIS:	
+        Type= Twolevel random;   !Twolevel定义两层模型，random定义随机斜率(β1)模型
+        Estimator = Bayes;  !定义估计方法
+        Biterations = (20000);  !定义模型最小迭代次数为20000次
+        Point = Median;  ! 定义点估计报告后验分布的中位数结果
+Model:	%Between%
+    	morale S on pctbelow;  !用pctbelow预测morale和S
+    	S with morale;  !估计morale和S之间的相关
+    	%Within%
+    	morale on female white;  !用性别和人种预测morale 
+    	S | Morale on satpay;  !用satpay预测morale并用S表示satpay对morale的效应，即β1
+OUTPUT:	TECH1;
+PLOT: TYPE = PLOT2;	!输出各参数的后验分布直方图等
+```
 
 
 
 ## 假设模型在rjags中的实现
-
-
 
 ### 代码
 ```r
