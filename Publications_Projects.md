@@ -1,4 +1,4 @@
-# Publications Sorted by Projects
+# Publications by Projects
 
 [TOC]
 
@@ -6,7 +6,7 @@
 
  							 							
 
-**Wrote two review articles and a book chapter, and presented five talks to introduce the latest development about BSEM and Lasso Method.**
+- **Wrote two review articles and a book chapter, and presented five talks to introduce the latest development about BSEM and Lasso Method.**
 
  							 							
 
@@ -50,13 +50,11 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ##### 1. Partial Factor Analysis
 
-**Participated in a project which proposed a partial factor analysis method between CFA and exploratory factor analysis. This project was published on Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) **
-
-**Presented two talks about Bayesian Lasso Factor Analysis Models.	**					 							
+- **Participated in a project which proposed a partial factor analysis method between CFA and exploratory factor analysis. This project was published on Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) 			 							
 
 ##### 2. Bayesian Model Modification in CFA
 
-**I built an R package which extent Bayesian Lasso CFA to a model modification method. I’am writing a paper to introducing this method and will give a Talk in the International Meeting of the Psychometric Society.**
+- **Built an R package which extent Bayesian Lasso CFA to a model modification method. **
 
 ​					 							
 
@@ -88,11 +86,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​		 							
 
-**This thesis won the excellent undergraduate graduation thesis of Sun Yat-sen University (top 5%).**
-
-**I’am writing a paper for providing guidelines of prior selection in Bayesian Approximate Measurement Invariance analysis.**
-
-**The abstract of this article was accepted by two conferences and the presentation was award as excellent in The 22nd Chinese Academic Conference of Psychology.**
+- **Won the excellent undergraduate graduation thesis of Sun Yat-sen University (top 5%).**
 
 
 
@@ -108,9 +102,9 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ## Sample Size Determination Guidelines for Latent Mediation Model
 
-**Participated in the writing, particularly in writing the software part.**
+- **Participated in the writing, particularly in writing the software part.**
 
-**Built an R package for Sample Size Determination in Structural Equation Modeling (e.g., Latent Mediation Analysis, Moderated Mediation Analysis, Cross-lagged modeling...etc).**
+- **Built an R package for Sample Size Determination in Structural Equation Modeling (e.g., Latent Mediation Analysis, Moderated Mediation Analysis, Cross-lagged modeling).**
 
   							
 
@@ -122,7 +116,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ## Methods Comparison in Moderated Mediation Analysis 
 
-**Participated in writing, responsible for the revision.**
+- **Participated in writing, responsible for the revision.**
 
  						
 
@@ -130,7 +124,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ## Compared the performance of structural equation modeling(SEM), exploratory SEM and Bayesian SEM in dealing with cross-loadings 					
 
-**Participated in the simulation design and article modification.**
+- **Participated in the simulation design and article modification.**
 
  							
 
@@ -140,9 +134,9 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​	 						
 
-**My Supervisor and I cooperated with a laboratory in the Department of Neurology, the sixth affiliated hospital, Sun Yat-sen University. I participated in the data analysis.**
+- **Participated in the data analysis.**
 
-**I hosted a project to test the inﬂuence of social support on career decision-making difculties through Bayesian longitudinal structural equation modeling.**
+- **I hosted a project to test the inﬂuence of social support on career decision-making difficulties through Bayesian longitudinal structural equation modeling.**
 
 ​						 						
 
@@ -160,4 +154,15 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​								 							
 
-**Translated this book (Anderson, 2014) with cooperators from PsychoR team and Capital of Statistics. I was responsible for the part of Neural Networks (chapter 9-13).**
+- **Translated this book (Anderson, 2014) with cooperators from PsychoR team and Capital of Statistics. I was responsible for the part of Neural Networks (chapter 9-13).**
+
+
+
+
+
+<center>
+<ul class="actions">
+<li><a href="https://www.lijinzhang.xyz/publications.html" class="button">RETURN</a></li>
+</ul>			
+</center>
+
