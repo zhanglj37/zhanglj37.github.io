@@ -50,7 +50,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ##### 1. Partial Factor Analysis
 
-- **Participated in a project which proposed a partial factor analysis method between CFA and exploratory factor analysis. This project was published on Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) 			 							
+- **Participated in a project which proposed a partial factor analysis method between CFA and exploratory factor analysis. This project was published on Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) **			 							
 
 ##### 2. Bayesian Model Modification in CFA
 
@@ -165,4 +165,3 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 <li><a href="https://www.lijinzhang.xyz/publications.html" class="button">RETURN</a></li>
 </ul>			
 </center>
-
