@@ -48,7 +48,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​							 							
 
-##### 1. Partial Factor Analysis
+##### 1. Partial Confirmatory Approach to Scale Development 
 
 - **Participated in a project which proposed a partial factor analysis method between CFA and exploratory factor analysis. This project was published on Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) **			 							
 
