@@ -50,7 +50,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ##### 1. Partial Confirmatory Approach to Scale Development 
 
-- **Participated in a project which proposed a partial factor analysis method between CFA and exploratory factor analysis. This project was published on Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) **			 							
+- **Participated in a project which proposed a partial confirmatory approach between CFA and exploratory factor analysis. This project was accepted by Pyschological Methods. I was responsible for the simulation studies in the revision which was appraised as comprehensive by two reviewers [[See the Review Comments]](https://zhanglj37.github.io/blog_200409_PMparticipation.html) **			 							
 
 ##### 2. Bayesian Model Modification in CFA
 
@@ -100,13 +100,13 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 [Talk] **Zhang, L.J.**, Pan, J.H.* (2019). *How to Select Prior Variance in Bayesian Approximate Measurement Invariance ?*  The International Meeting of the Psychometric Society, 15-19 June, Santiago. [[abstract\]](https://www.lijinzhang.xyz/share/Abstracts_IMPS_Measurement_Invariance.pdf) (accepted but wasn’t able to attend)
 
-## Sample Size Determination Guidelines for Latent Mediation Model
+## Sample Size Determination Guidelines for SEM
 
 - **Participated in the writing, particularly in writing the software part.**
 
 - **Built an R package for Sample Size Determination in Structural Equation Modeling (e.g., Latent Mediation Analysis, Moderated Mediation Analysis, Cross-lagged modeling).**
 
-  							
+  ​							
 
 [Journal Article] Sun, R.Q., **Zhang, L.J.**, Pan, J.H.* (manuscript drafted). Sample Size Determination Guidelines for Latent Mediation Model: A Monte Carlo Study. 
 
@@ -122,7 +122,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 [Journal Article] Feng, Q.Q., Song, Q.Y. (co-first author), **Zhang, L.J. (co-first author)**, Zheng, S.F., Pan, J.H.* (under revision). Integration of Moderation and Mediation in a Latent Variable Framework: A Comparison of Estimation Methods. *Frontiers in Psychology.*
 
-## Compared the performance of structural equation modeling(SEM), exploratory SEM and Bayesian SEM in dealing with cross-loadings 					
+## Compared the performance of SEM, exploratory SEM and Bayesian SEM in dealing with cross-loadings
 
 - **Participated in the simulation design and article modification.**
 
@@ -150,7 +150,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 [Poster] **Zhang, L.J.**, Lu, J.Q., Zhang, Y.N., Pan, J.H.* (2018, **Excellent Presenter**). *The Inﬂuence of Social Support on Career Decision-Making Difficulty: A Moderated Mediation Model.*  Psychology Academic Forum for the 21st Century, 24-26 March, Beijing. 
 
-## [Book Chapter] Computational Neuroscience and Cognitive Modelling (in Chinese) 					
+## Computational Neuroscience and Cognitive Modelling	
 
 ​								 							
 
