@@ -90,7 +90,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 
 
-[Journal Article] **Zhang, L.J.**, Deng, Y.T., Zheng, S.F., Pan, J.H.* (manuscript drafted). Prior Selection Guidelines in Bayesian Approximate Measurement Invariance ? 
+[Journal Article] **Zhang, L.J.**, Deng, Y.T., Zheng, S.F., Pan, J.H.* (under review). Prior Selection Guidelines in Bayesian Approximate Measurement Invariance. <i>Structural Equation Modeling: A Multidisciplinary Journal</i>.
 
 ​		 							
 
@@ -128,7 +128,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
  							
 
-[Journal Article] Wei, X.Y., Huang, J.S. (co-first author), **Zhang, L.J.**, Pan, J.H.*  (under review). Evaluation and Comparison among SEM, ESEM and BSEM in Estimating Structural Models with Potentially Unknown Cross-loadings. *Behavior Research Methods*.
+[Journal Article] Wei, X.Y., Huang, J.S. (co-first author), **Zhang, L.J.**, Pan, J.H.*  (manuscript drafted). Evaluation and Comparison among SEM, ESEM and BSEM in Estimating Structural Models with Potentially Unknown Cross-loadings. 
 
 ## Cooperations with Applied Researchers
 
