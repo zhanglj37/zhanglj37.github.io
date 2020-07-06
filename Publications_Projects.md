@@ -108,7 +108,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
   ​							
 
-[Journal Article] Sun, R.Q., **Zhang, L.J.**, Pan, J.H.* (manuscript drafted). Sample Size Determination Guidelines for Latent Mediation Model: A Monte Carlo Study. 
+[Journal Article] Sun, R.Q., **Zhang, L.J.**, Pan, J.H.* (under review). Sample Size Determination Guidelines for Latent Mediation Model: A Monte Carlo Study. *Psychological Science*
 
 ​		 							
 
