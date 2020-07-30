@@ -58,7 +58,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​					 							
 
-[Journal Article] Chen, J.S.\*, Guo, Z.H., **Zhang, L.J.**, Pan, J.H.* (accepted). A Partially Confirmatory Approach to Scale Development with the Bayesian Lasso. *Psychological Methods.* [2018 IF: 8.188] 
+[Journal Article] Chen, J.S.\*, Guo, Z.H., **Zhang, L.J.**, Pan, J.H.* (accepted). A Partially Confirmatory Approach to Scale Development with the Bayesian Lasso. *Psychological Methods.* [2019 IF: 8.43] 
 
 ​		 							
 
@@ -140,7 +140,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​						 						
 
-[Journal Article] Liu, S.J., Huang, Z.Z., **Zhang, L.J.**, Pan, J.H., Lei, Q.F., Meng, Y.Y., Li, Z.* (2020). [Plasma Neurofilament Light Chain may be a Biomarker for the Inverse Association between Cancers and Neurodegenerative Diseases.](https://www.lijinzhang.xyz/share/Paper_Biomarker.pdf) *Frontiers in Aging Neuroscience, 12*(10): 1-8. [2018 IF: 3.633]
+[Journal Article] Liu, S.J., Huang, Z.Z., **Zhang, L.J.**, Pan, J.H., Lei, Q.F., Meng, Y.Y., Li, Z.* (2020). [Plasma Neurofilament Light Chain may be a Biomarker for the Inverse Association between Cancers and Neurodegenerative Diseases.](https://www.lijinzhang.xyz/share/Paper_Biomarker.pdf) *Frontiers in Aging Neuroscience, 12*(10): 1-8. [2019 IF: 4.362]
 
 ​		 							 						
 
