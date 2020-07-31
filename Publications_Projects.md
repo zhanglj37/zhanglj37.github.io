@@ -16,7 +16,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​					 							 							
 
-**Note: \* indicates correspondent author, Advances in Psychological Science (in Chinese) is the most cited journal in Chinese Psychology.**							
+**Note: \* indicates correspondent author, Advances in Psychological Science was rated as one of the most influential Chinese journal, 2019.**							
 
 [Journal Article] **Zhang, L.J.**, Wei, X.Y., Lu, J.Q., Pan, J.H.* (accepted). Lasso Regression: From Explanation to Prediction. *Advances in Psychological Science (in Chinese).* 
 
@@ -66,7 +66,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 ​		 							
 
-[Talk] **Zhang, L.J.**, Pan, J.H.*, Ip, E.H. (To be presented in July 2020). *BLCFA: An R package for Bayesian Model Modification in Confirmatory Factor Analysis.* International Meeting of the Psychometric Society, 14-17 July, Online. [[abstract\]](https://www.lijinzhang.xyz/share/Abstracts_BLCFApackage.pdf) 
+[Talk] **Zhang, L.J.**, Pan, J.H.*, Ip, E.H. (2020). *BLCFA: An R package for Bayesian Model Modification in Confirmatory Factor Analysis.* International Meeting of the Psychometric Society, 14-17 July, Online. [[abstract\]](https://www.lijinzhang.xyz/share/Abstracts_BLCFApackage.pdf) 
 
  							
 
