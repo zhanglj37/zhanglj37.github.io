@@ -120,7 +120,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
  						
 
-[Journal Article] Feng, Q.Q., Song, Q.Y. (co-first author), **Zhang, L.J. (co-first author)**, Zheng, S.F., Pan, J.H.* (under revision). Integration of Moderation and Mediation in a Latent Variable Framework: A Comparison of Estimation Methods. *Frontiers in Psychology.*
+[Journal Article] Feng, Q.Q., Song, Q.Y. (co-first author), **Zhang, L.J. (co-first author)**, Zheng, S.F., Pan, J.H.* (accepted). Integration of Moderation and Mediation in a Latent Variable Framework: A Comparison of Estimation Methods. *Frontiers in Psychology. * [2019 IF: 2.067]
 
 ## Compared the performance of SEM, exploratory SEM and Bayesian SEM in dealing with cross-loadings
 
