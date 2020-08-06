@@ -56,15 +56,21 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 - **Built an R package which extent Bayesian Lasso CFA to a model modification method. **
 
+##### 3. Comparison Between Effect Size, *p*-value, and Credible Interval in Variable Selection
+
 ​					 							
 
-[Journal Article] Chen, J.S.\*, Guo, Z.H., **Zhang, L.J.**, Pan, J.H.* (accepted). A Partially Confirmatory Approach to Scale Development with the Bayesian Lasso. *Psychological Methods.* [2019 IF: 8.43] 
+[Journal Article] Chen, J.S.\*, Guo, Z.H., **Zhang, L.J.**, Pan, J.H.* (2020). A Partially Confirmatory Approach to Scale Development with the Bayesian Lasso. *Psychological Methods.* Advance online publication. [2019 IF: 8.43] 
 
 ​		 							
 
 [Journal Article] Pan, J.H., **Zhang, L.J. (co-first author)**, Ip, E.H.* (manuscript drafted). BLCFA: An R Package for Bayesian Model Modification in Confirmatory Factor Analysis. 
 
-​		 							
+
+
+<p>[Journal Article] <b>Zhang, L.J.</b>, Pan, J.H.* (manuscript drafted). Comparison Between Effect Size, <i>p</i>-value, and Credible Interval in Variable Selection using the Bayesian Lasso Method </p>
+
+
 
 [Talk] **Zhang, L.J.**, Pan, J.H.*, Ip, E.H. (2020). *BLCFA: An R package for Bayesian Model Modification in Confirmatory Factor Analysis.* International Meeting of the Psychometric Society, 14-17 July, Online. [[abstract\]](https://www.lijinzhang.xyz/share/Abstracts_BLCFApackage.pdf) 
 
@@ -79,8 +85,6 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
  							 							
 
 [Software Development] **Zhang, L.J.**, Pan, J.H., Ip, E.H. (2020). *BLCFA: An R package for Bayesian Model Modification in Confirmatory Factor Analysis.* Retrievable from https://github.com/zhanglj37/blcfa. 
-
-
 
 ## Prior Selection Guidelines in Bayesian Approximate Measurement Invariance 
 
