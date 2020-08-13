@@ -94,7 +94,7 @@ Dr. Pan and I completed the Bayesian Structural Equation Modeling chapter.
 
 
 
-[Journal Article] **Zhang, L.J.**, Deng, Y.T., Zheng, S.F., Pan, J.H.* (under review). Prior Selection Guidelines in Bayesian Approximate Measurement Invariance. <i>Structural Equation Modeling: A Multidisciplinary Journal</i>.
+[Journal Article] **Zhang, L.J.**, Deng, Y.T., Zheng, S.F., Pan, J.H.* (manuscript drafted). Prior Selection Guidelines in Bayesian Approximate Measurement Invariance.
 
 ​		 							
 
