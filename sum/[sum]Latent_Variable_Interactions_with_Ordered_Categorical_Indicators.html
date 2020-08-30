@@ -2,21 +2,21 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>[sum]Latent_Variable_Interactions_with_Ordered_Categorical_Indicators</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>[sum]Latent_Variable_Interactions_with_Ordered_Categorical_Indicators</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
@@ -24,14 +24,14 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font: inherit; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
 p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
@@ -43,7 +43,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -52,8 +52,8 @@ tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -63,7 +63,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
 .md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -72,7 +72,7 @@ div.hr:focus { cursor: none; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -81,8 +81,8 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
@@ -91,18 +91,19 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
 .md-math-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -115,7 +116,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 48em) { 
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -126,86 +127,324 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
 .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
 .MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
-[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
-html { font-size: 19px; }
-html, body { margin: auto; background: rgb(254, 254, 254); }
-body { font-family: Vollkorn, Palatino, Times; color: rgb(51, 51, 51); line-height: 1.4; text-align: justify; }
-#write { max-width: 960px; margin: 0px auto 2em; line-height: 1.53; padding-top: 40px; }
-#write > h1:first-child, h1 { margin-top: 1.6em; font-weight: normal; }
-h1 { font-size: 3em; }
-h2 { margin-top: 2em; font-weight: normal; }
-h3 { font-weight: normal; font-style: italic; margin-top: 3em; }
-h1, h2, h3 { text-align: center; }
-h2::after { border-bottom: 1px solid rgb(47, 47, 47); content: ""; width: 100px; display: block; margin: 0px auto; height: 1px; }
-h1 + h2, h2 + h3 { margin-top: 0.83em; }
-p, .mathjax-block { margin-top: 0px; }
-ul { list-style: square; padding-left: 1.2em; }
-ol { padding-left: 1.2em; }
-blockquote { margin-left: 1em; padding-left: 1em; border-left: 1px solid rgb(221, 221, 221); }
-code, pre { font-family: Consolas, Menlo, Monaco, monospace, serif; font-size: 0.9em; background: white; }
-.md-fences { margin-left: 1em; padding-left: 1em; border: 1px solid rgb(221, 221, 221); padding-bottom: 8px; padding-top: 6px; margin-bottom: 1.5em; }
-a { color: rgb(36, 132, 193); text-decoration: none; }
-a:hover { text-decoration: underline; }
-a img { border: none; }
-h1 a, h1 a:hover { color: rgb(51, 51, 51); text-decoration: none; }
-hr { color: rgb(221, 221, 221); height: 1px; margin: 2em 0px; border-top: 1px solid rgb(221, 221, 221); border-bottom: none; border-left: 0px; border-right: 0px; }
-.ty-table-edit { background: rgb(237, 237, 237); padding-top: 4px; }
-table { margin-bottom: 1.33333rem; }
-table th, table td { padding: 8px; line-height: 1.33333rem; vertical-align: top; border-top: 1px solid rgb(221, 221, 221); }
-table th { font-weight: bold; }
-table thead th { vertical-align: bottom; }
-table caption + thead tr:first-child th, table caption + thead tr:first-child td, table colgroup + thead tr:first-child th, table colgroup + thead tr:first-child td, table thead:first-child tr:first-child th, table thead:first-child tr:first-child td { border-top: 0px; }
-table tbody + tbody { border-top: 2px solid rgb(221, 221, 221); }
-.task-list { padding: 0px; }
-.md-task-list-item { padding-left: 1.6rem; }
-.md-task-list-item > input::before { content: "√"; display: inline-block; width: 1.33333rem; height: 1.6rem; vertical-align: middle; text-align: center; color: rgb(221, 221, 221); background-color: rgb(254, 254, 254); }
-.md-task-list-item > input:checked::before, .md-task-list-item > input[checked]::before { color: inherit; }
-.md-tag { color: inherit; font: inherit; }
-#write pre.md-meta-block { min-height: 35px; padding: 0.5em 1em; }
-#write pre.md-meta-block { white-space: pre; background: rgb(248, 248, 248); border-width: 0px 30px; border-top-style: initial; border-bottom-style: initial; border-top-color: initial; border-bottom-color: initial; border-image: initial; color: rgb(153, 153, 153); width: 100vw; max-width: calc(100% + 60px); margin-left: -30px; border-left-style: solid; border-left-color: rgb(248, 248, 248); border-right-style: solid; border-right-color: rgb(248, 248, 248); margin-bottom: 2em; margin-top: -1.33333rem; padding-top: 26px; padding-bottom: 10px; line-height: 1.8em; font-size: 0.76em; padding-left: 0px; }
-.md-img-error.md-image > .md-meta { vertical-align: bottom; }
-#write > h5.md-focus::before { top: 2px; }
-.md-toc { margin-top: 40px; }
-.md-toc-content { padding-bottom: 20px; }
-.outline-expander::before { color: inherit; font-size: 14px; top: auto; content: ""; font-family: FontAwesome; }
-.outline-expander:hover::before, .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
-#typora-source { font-family: Courier, monospace; color: rgb(106, 106, 106); }
-.html-for-mac #typora-sidebar { box-shadow: rgba(0, 0, 0, 0.176) 0px 6px 12px; }
-.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property, .CodeMirror.cm-s-typora-default div.CodeMirror-cursor { color: rgb(66, 139, 202); }
-.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number { color: rgb(119, 119, 119); }
-.typora-node .file-list-item-parent-loc, .typora-node .file-list-item-time, .typora-node .file-list-item-summary { font-family: arial, sans-serif; }
-.md-task-list-item > input { margin-left: -1.3em; margin-top: calc(1rem - 12px); }
-.md-mathjax-midline { background: rgb(250, 250, 250); }
-.md-fences .code-tooltip { bottom: -2em !important; }
-.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+html {
+	font-size: 19px;
+}
+
+html, body {
+	margin: auto;
+	background: #fefefe;
+}
+body {
+	font-family: "Vollkorn", Palatino, Times;
+	color: #333;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+#write {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	line-height: 1.53;
+	padding-top: 40px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1100px;
+	}
+}
+
+/* Typography
+-------------------------------------------------------- */
+
+#write>h1:first-child,
+h1 {
+	margin-top: 1.6em;
+	font-weight: normal;
+}
+
+h1 {
+	font-size:3em;
+}
+
+h2 {
+	margin-top:2em;
+	font-weight: normal;
+}
+
+h3 {
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 3em;
+}
+
+h1, 
+h2, 
+h3{
+	text-align: center;
+}
+
+h2:after{
+	border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+}
+
+h1+h2, h2+h3 {
+	margin-top: 0.83em;
+}
+
+p,
+.mathjax-block {
+	margin-top: 0;
+	-webkit-hypens: auto;
+	-moz-hypens: auto;
+	hyphens: auto;
+}
+ul {
+	list-style: square;
+	padding-left: 1.2em;
+}
+ol {
+	padding-left: 1.2em;
+}
+blockquote {
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ddd;
+}
+code,
+pre {
+	font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
+	font-size: .9em;
+	background: white;
+}
+.md-fences{
+	margin-left: 1em;
+	padding-left: 1em;
+	border: 1px solid #ddd;
+	padding-bottom: 8px;
+	padding-top: 6px;
+	margin-bottom: 1.5em;
+}
+
+a {
+	color: #2484c1;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: none;
+}
+h1 a,
+h1 a:hover {
+	color: #333;
+	text-decoration: none;
+}
+hr {
+	color: #ddd;
+	height: 1px;
+	margin: 2em 0;
+	border-top: solid 1px #ddd;
+	border-bottom: none;
+	border-left: 0;
+	border-right: 0;
+}
+.ty-table-edit {
+	background: #ededed;
+    padding-top: 4px;
+}
+table {
+	margin-bottom: 1.333333rem
+}
+table th,
+table td {
+	padding: 8px;
+	line-height: 1.333333rem;
+	vertical-align: top;
+	border-top: 1px solid #ddd
+}
+table th {
+	font-weight: bold
+}
+table thead th {
+	vertical-align: bottom
+}
+table caption+thead tr:first-child th,
+table caption+thead tr:first-child td,
+table colgroup+thead tr:first-child th,
+table colgroup+thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+	border-top: 0
+}
+table tbody+tbody {
+	border-top: 2px solid #ddd
+}
+
+.task-list{
+	padding:0;
+}
+
+.md-task-list-item {
+	padding-left: 1.6rem;
+}
+
+.md-task-list-item > input:before {
+	content: '\221A';
+	display: inline-block;
+	width: 1.33333333rem;
+  	height: 1.6rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #ddd;
+	background-color: #fefefe;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	color: inherit;
+}
+.md-tag {
+	color: inherit;
+	font: inherit;
+}
+#write pre.md-meta-block {
+	min-height: 35px;
+	padding: 0.5em 1em;
+}
+#write pre.md-meta-block {
+	white-space: pre;
+	background: #f8f8f8;
+	border: 0px;
+	color: #999;
+	
+	width: 100vw;
+	max-width: calc(100% + 60px);
+	margin-left: -30px;
+	border-left: 30px #f8f8f8 solid;
+	border-right: 30px #f8f8f8 solid;
+
+	margin-bottom: 2em;
+	margin-top: -1.3333333333333rem;
+	padding-top: 26px;
+	padding-bottom: 10px;
+	line-height: 1.8em;
+	font-size: 0.9em;
+	font-size: 0.76em;
+	padding-left: 0;
+}
+.md-img-error.md-image>.md-meta{
+	vertical-align: bottom;
+}
+#write>h5.md-focus:before {
+	top: 2px;
+}
+
+.md-toc {
+	margin-top: 40px;
+}
+
+.md-toc-content {
+	padding-bottom: 20px;
+}
+
+.outline-expander:before {
+	color: inherit;
+	font-size: 14px;
+	top: auto;
+	content: "\f0da";
+	font-family: FontAwesome;
+}
+
+.outline-expander:hover:before,
+.outline-item-open>.outline-item>.outline-expander:before {
+  	content: "\f0d7";
+}
+
+/** source code mode */
+#typora-source {
+	font-family: Courier, monospace;
+    color: #6A6A6A;
+}
+
+.html-for-mac #typora-sidebar {
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property,
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
+	color: #428bca;
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+	color: #777777;
+}
+
+.typora-node .file-list-item-parent-loc, 
+.typora-node .file-list-item-time, 
+.typora-node .file-list-item-summary {
+	font-family: arial, sans-serif;
+}
+
+.md-task-list-item>input {
+    margin-left: -1.3em;
+    margin-top: calc(1rem - 12px);
+}
+
+.md-mathjax-midline {
+	background: #fafafa;
+}
+
+.md-fences .code-tooltip {
+	bottom: -2em !important;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
 
 
 </style>
 </head>
-<body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="latent-variable-interactions-with-ordered-categorical-indicators" class="md-header-anchor"></a><span>Latent Variable Interactions with Ordered Categorical Indicators</span></h1><p><span>Ayturk, E.,  Cham, H., &amp;  Brown, J. L.. (2019). Latent variable interactions with ordered-categorical indicators: comparisons of unconstrained product indicator and latent moderated structural equations approaches. </span><em><span>Educational and Psychological Measurement,</span></em><span> </span><em><span>80</span></em><span>(2):1-31. DOI: </span><a href='https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.1177%2F0013164419865017'><span>10.1177/0013164419865017</span></a></p><div class='md-toc' mdtype='toc'><p class="md-toc-content"><span class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" style="cursor: pointer;" href="#latent-variable-interactions-with-ordered-categorical-indicators">Latent Variable Interactions with Ordered Categorical Indicators</a></span><span class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" style="cursor: pointer;" href="#purpose">Purpose</a></span><span class="md-toc-item md-toc-h4" data-ref="n10"><a class="md-toc-inner" style="cursor: pointer;" href="#background">Background</a></span><span class="md-toc-item md-toc-h4" data-ref="n20"><a class="md-toc-inner" style="cursor: pointer;" href="#parceling-vs-matching-in-upi">Parceling vs Matching in UPI</a></span><span class="md-toc-item md-toc-h4" data-ref="n28"><a class="md-toc-inner" style="cursor: pointer;" href="#lms">LMS</a></span><span class="md-toc-item md-toc-h2" data-ref="n31"><a class="md-toc-inner" style="cursor: pointer;" href="#highlights-in-the-simulation-study">Highlights in the Simulation Study</a></span><span class="md-toc-item md-toc-h2" data-ref="n55"><a class="md-toc-inner" style="cursor: pointer;" href="#suggestions">Suggestions</a></span><span class="md-toc-item md-toc-h2" data-ref="n59"><a class="md-toc-inner" style="cursor: pointer;" href="#my-thoughts">My Thoughts</a></span></p></div><h2><a name="purpose" class="md-header-anchor"></a><span>Purpose</span></h2><ul><li><span>Comparison between UPI (unconstrained product indicator) and LMS (latent moderated structural equations) in latent moderation models.</span></li><li><span>Studied four strategies to create sets of product indicators for UPI</span></li></ul><h4><a name="background" class="md-header-anchor"></a><span>Background</span></h4><p><span>Although there are methods developed specifically to handle ordered-categorical variables in latent variable interaction modeling (e.g., Lee, Song, &amp; Cai, 2010; Rizopoulos &amp; Moustaki, 2008; Song &amp; Lee, 2005), UPI and LMS still appear to be the most popular methods based on the citations on Google Scholar. </span></p><p><span>Ref:</span></p><ul><li><span>Lee, S.-Y., Song, X.-Y., &amp; Cai, J.-H. (2010). A Bayesian approach for nonlinear structural equation models with dichotomous variables using logit and probit links. Structural Equation Modeling, 17, 280-302. doi:10.1080/10705511003659425 </span></li><li><span>Rizopoulos, D., &amp; Moustaki, I. (2008). Generalized latent variable models with nonlinear effects. British Journal of Mathematical and Statistical Psychology, 61, 415-438. doi: 10.1348/000711007X213963 </span></li><li><span>Song, X. Y., &amp; Lee, S. Y. (2005). Maximum likelihood analysis of nonlinear structural equation models with dichotomous variables. Multivariate Behavioral Research, 40, 151-177. doi:10.1207/s15327906mbr4002_1</span></li></ul><h4><a name="parceling-vs-matching-in-upi" class="md-header-anchor"></a><span>Parceling vs Matching in UPI</span></h4><p><span>Matching: the indicators of the </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> are  multiplied with those of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> . </span></p><p><span>Three-matched-pair strategy: pair and multiply the three most reliable indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> and </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> according to their reliabilities. Before matching, all the indicators shall be mean-centered to increase the model convergence rates and reduce model specification complexity</span></p><p><span>The three-matched-pair strategy is disadvantageous in ignoring the remaining indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> in representing the interaction term, which results in lower statistical power of the z test of the interaction effect compared with other matching strategies that use more product indicators. However, these matching strategies are not suggested because the model specification regarding the unique factors is more complex. </span></p><p>&nbsp;</p><p><span>Parceling to match the number of indicators of two latent variables for generating the interaction terms (</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="12.775ex" height="1.774ex" viewBox="0 -508.5 5500.2 763.8" role="img" focusable="false" style="vertical-align: -0.593ex;"><defs><path stroke-width="0" id="E6-MJMATHI-78" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path><path stroke-width="0" id="E6-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path stroke-width="0" id="E6-MJMATHI-7A" d="M347 338Q337 338 294 349T231 360Q211 360 197 356T174 346T162 335T155 324L153 320Q150 317 138 317Q117 317 117 325Q117 330 120 339Q133 378 163 406T229 440Q241 442 246 442Q271 442 291 425T329 392T367 375Q389 375 411 408T434 441Q435 442 449 442H462Q468 436 468 434Q468 430 463 420T449 399T432 377T418 358L411 349Q368 298 275 214T160 106L148 94L163 93Q185 93 227 82T290 71Q328 71 360 90T402 140Q406 149 409 151T424 153Q443 153 443 143Q443 138 442 134Q425 72 376 31T278 -11Q252 -11 232 6T193 40T155 57Q111 57 76 -3Q70 -11 59 -11H54H41Q35 -5 35 -2Q35 13 93 84Q132 129 225 214T340 322Q352 338 347 338Z"></path><path stroke-width="0" id="E6-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path><path stroke-width="0" id="E6-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E6-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E6-MJMATHI-78" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-31" x="808" y="-213"></use><g transform="translate(1025,0)"><use xlink:href="#E6-MJMATHI-7A" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-31" x="657" y="-213"></use></g><use xlink:href="#E6-MJMAIN-2C" x="1944" y="0"></use><g transform="translate(2388,0)"><use xlink:href="#E6-MJMATHI-78" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-32" x="808" y="-213"></use></g><g transform="translate(3414,0)"><use xlink:href="#E6-MJMATHI-7A" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-32" x="657" y="-213"></use></g><use xlink:href="#E6-MJMAIN-2E" x="4332" y="0"></use><use xlink:href="#E6-MJMAIN-2E" x="4777" y="0"></use><use xlink:href="#E6-MJMAIN-2E" x="5222" y="0"></use></g></svg></span><script type="math/tex">x_1z_1,x_2z_2...</script><span>)</span></p><p><span>Factorial algorithm:  the first parcel picks the indicators with the highest and lowest factor loadings. The second factor picks the indicators with second highest and second lowest factor loadings...</span></p><p><span>This strategy takes the advantage of the matching strategy in terms of the scaling identification and also the parceling strategy in terms of high statistical power to detect the interaction effect. Yang, Nay, and Hoyle (2010) found that parceling can reduce bias in parameter estimation when having categorical indicators. </span></p><h4><a name="lms" class="md-header-anchor"></a><span>LMS</span></h4><p><span>LMS builds on the ideas that (1) the interaction effect is a conditioned linear effect on another variable and (2) a weighted combination of conditional normal distributions can be used to approximate the multivariate distributions of the observed indicators.</span></p><p>&nbsp;</p><h2><a name="highlights-in-the-simulation-study" class="md-header-anchor"></a><span>Highlights in the Simulation Study</span></h2><p><span>Generation of categorical indicators: Under each distribution condition, the continuous indicators were standardized first, and then were categorized into five- and three-categories according to the thresholds used by Rhemtulla et al. (2012). </span></p><p><span>Thresholds:   </span></p><ul><li><span>symmetric conditions: (-1.5, -0.5, 0.5, 1.5) , (-0.83, 0.83)</span></li><li><span>moderately and severely skewed and kurtotic conditions: (0.05, 0.44, 0.84, 1.34), (0.58,1.13)</span></li></ul><p><span>Four matching / parceling strategies in UPI:</span></p><ul><li><span>matching: three-matched-pair</span></li><li><span>parceling</span></li><li><span>two-matched-pair and one parcel (2M + P):  the two most reliable indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> and </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> were matched to create two product indicators and the least reliable indicator of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> was matched with the parcel of the remaining indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.48ex" viewBox="0 -761.8 891.6 1067.7" role="img" focusable="false" style="vertical-align: -0.711ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> to create the third product indicator.</span></li><li><span>one-matched-pair and two parcels (M + 2P)</span></li></ul><p>&nbsp;</p><p><span>It is appropriate to treat ordered-categorical indicators with five or more categories as continuous indicators in confirmatory factor analysis</span></p><p><span>Matching: UPI matching approach produced unbiased estimates of interaction effect with correct Type I error rates with N&gt;=1,000 while it underestimated standard errors when the indicators were non-symmetrically distributed. </span></p><p><span>Parceling:  produced unbiased estimates of the interaction effect with good coverage, and Type I error rates for all indicator type conditions (i.e., continuous, five-category, three-category) and across all sample sizes when the indicators were symmetrical. When the indicators were nonsymmetrical, UPI parceling models resulted in highly overestimated interaction effects, and low coverage rates with increased sample size (as low as 0.4%) in all conditions except with three-category severely skewed and kurtotic indicators. </span></p><p><span>The new methods combined Matching and Parceling did not reach outstanding performance.</span></p><p><span>LMS approach performed similar to the UPI parceling approach</span></p><h2><a name="suggestions" class="md-header-anchor"></a><span>Suggestions</span></h2><p><span>Use a parceling strategy to create product indicators in the UPI approach or using the LMS approach when the categorical indicators are symmetrically distributed. </span></p><p><span>Do NOT use UPI parceling or LMS when the indicators are skewed or kurtotic. </span></p><p><span>Use UPI 2M + P for continuous skewed and kurtotic indicators with caution. It can produce suboptimal standard error estimates, Type I error rates, power, or coverage rates, depending on particular research conditions. </span></p><h2><a name="my-thoughts" class="md-header-anchor"></a><span>My Thoughts</span></h2><p><span>Use instrumental variables when the indicators are skewed or kurtotic. Instrumental variables can also be used in UPI matching models to make use of all the indicators.</span></p><p>&nbsp;</p><center>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h1><a name="latent-variable-interactions-with-ordered-categorical-indicators" class="md-header-anchor"></a><span>Latent Variable Interactions with Ordered Categorical Indicators</span></h1><p><span>Ayturk, E.,  Cham, H., &amp;  Brown, J. L.. (2019). Latent variable interactions with ordered-categorical indicators: comparisons of unconstrained product indicator and latent moderated structural equations approaches. </span><em><span>Educational and Psychological Measurement,</span></em><span> </span><em><span>80</span></em><span>(2):1-31. DOI: </span><a href='https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.1177%2F0013164419865017'><span>10.1177/0013164419865017</span></a></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" href="#latent-variable-interactions-with-ordered-categorical-indicators">Latent Variable Interactions with Ordered Categorical Indicators</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" href="#purpose">Purpose</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n10"><a class="md-toc-inner" href="#background">Background</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n20"><a class="md-toc-inner" href="#parceling-vs-matching-in-upi">Parceling vs Matching in UPI</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n28"><a class="md-toc-inner" href="#lms">LMS</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n31"><a class="md-toc-inner" href="#highlights-in-the-simulation-study">Highlights in the Simulation Study</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n55"><a class="md-toc-inner" href="#suggestions">Suggestions</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n59"><a class="md-toc-inner" href="#my-thoughts">My Thoughts</a></span></p></div><h2><a name="purpose" class="md-header-anchor"></a><span>Purpose</span></h2><ul><li><span>Comparison between UPI (unconstrained product indicator) and LMS (latent moderated structural equations) in latent moderation models.</span></li><li><span>Studied four strategies to create sets of product indicators for UPI</span></li></ul><h4><a name="background" class="md-header-anchor"></a><span>Background</span></h4><p><span>Although there are methods developed specifically to handle ordered-categorical variables in latent variable interaction modeling (e.g., Lee, Song, &amp; Cai, 2010; Rizopoulos &amp; Moustaki, 2008; Song &amp; Lee, 2005), UPI and LMS still appear to be the most popular methods based on the citations on Google Scholar. </span></p><p><span>Ref:</span></p><ul><li><span>Lee, S.-Y., Song, X.-Y., &amp; Cai, J.-H. (2010). A Bayesian approach for nonlinear structural equation models with dichotomous variables using logit and probit links. Structural Equation Modeling, 17, 280-302. doi:10.1080/10705511003659425 </span></li><li><span>Rizopoulos, D., &amp; Moustaki, I. (2008). Generalized latent variable models with nonlinear effects. British Journal of Mathematical and Statistical Psychology, 61, 415-438. doi: 10.1348/000711007X213963 </span></li><li><span>Song, X. Y., &amp; Lee, S. Y. (2005). Maximum likelihood analysis of nonlinear structural equation models with dichotomous variables. Multivariate Behavioral Research, 40, 151-177. doi:10.1207/s15327906mbr4002_1</span></li></ul><h4><a name="parceling-vs-matching-in-upi" class="md-header-anchor"></a><span>Parceling vs Matching in UPI</span></h4><p><span>Matching: the indicators of the </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> are  multiplied with those of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> . </span></p><p><span>Three-matched-pair strategy: pair and multiply the three most reliable indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> and </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> according to their reliabilities. Before matching, all the indicators shall be mean-centered to increase the model convergence rates and reduce model specification complexity</span></p><p><span>The three-matched-pair strategy is disadvantageous in ignoring the remaining indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> in representing the interaction term, which results in lower statistical power of the z test of the interaction effect compared with other matching strategies that use more product indicators. However, these matching strategies are not suggested because the model specification regarding the unique factors is more complex. </span></p><p>&nbsp;</p><p><span>Parceling to match the number of indicators of two latent variables for generating the interaction terms (</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="12.775ex" height="1.909ex" viewBox="0 -531.2 5500.2 821.8" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E6-MJMATHI-78" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path><path stroke-width="0" id="E6-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path stroke-width="0" id="E6-MJMATHI-7A" d="M347 338Q337 338 294 349T231 360Q211 360 197 356T174 346T162 335T155 324L153 320Q150 317 138 317Q117 317 117 325Q117 330 120 339Q133 378 163 406T229 440Q241 442 246 442Q271 442 291 425T329 392T367 375Q389 375 411 408T434 441Q435 442 449 442H462Q468 436 468 434Q468 430 463 420T449 399T432 377T418 358L411 349Q368 298 275 214T160 106L148 94L163 93Q185 93 227 82T290 71Q328 71 360 90T402 140Q406 149 409 151T424 153Q443 153 443 143Q443 138 442 134Q425 72 376 31T278 -11Q252 -11 232 6T193 40T155 57Q111 57 76 -3Q70 -11 59 -11H54H41Q35 -5 35 -2Q35 13 93 84Q132 129 225 214T340 322Q352 338 347 338Z"></path><path stroke-width="0" id="E6-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path><path stroke-width="0" id="E6-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E6-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E6-MJMATHI-78" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-31" x="808" y="-213"></use><g transform="translate(1025,0)"><use xlink:href="#E6-MJMATHI-7A" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-31" x="657" y="-213"></use></g><use xlink:href="#E6-MJMAIN-2C" x="1944" y="0"></use><g transform="translate(2388,0)"><use xlink:href="#E6-MJMATHI-78" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-32" x="808" y="-213"></use></g><g transform="translate(3414,0)"><use xlink:href="#E6-MJMATHI-7A" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-32" x="657" y="-213"></use></g><use xlink:href="#E6-MJMAIN-2E" x="4332" y="0"></use><use xlink:href="#E6-MJMAIN-2E" x="4777" y="0"></use><use xlink:href="#E6-MJMAIN-2E" x="5222" y="0"></use></g></svg></span><script type="math/tex">x_1z_1,x_2z_2...</script><span>)</span></p><p><span>Factorial algorithm:  the first parcel picks the indicators with the highest and lowest factor loadings. The second factor picks the indicators with second highest and second lowest factor loadings...</span></p><p><span>This strategy takes the advantage of the matching strategy in terms of the scaling identification and also the parceling strategy in terms of high statistical power to detect the interaction effect. Yang, Nay, and Hoyle (2010) found that parceling can reduce bias in parameter estimation when having categorical indicators. </span></p><h4><a name="lms" class="md-header-anchor"></a><span>LMS</span></h4><p><span>LMS builds on the ideas that (1) the interaction effect is a conditioned linear effect on another variable and (2) a weighted combination of conditional normal distributions can be used to approximate the multivariate distributions of the observed indicators.</span></p><p>&nbsp;</p><h2><a name="highlights-in-the-simulation-study" class="md-header-anchor"></a><span>Highlights in the Simulation Study</span></h2><p><span>Generation of categorical indicators: Under each distribution condition, the continuous indicators were standardized first, and then were categorized into five- and three-categories according to the thresholds used by Rhemtulla et al. (2012). </span></p><p><span>Thresholds:   </span></p><ul><li><span>symmetric conditions: (-1.5, -0.5, 0.5, 1.5) , (-0.83, 0.83)</span></li><li><span>moderately and severely skewed and kurtotic conditions: (0.05, 0.44, 0.84, 1.34), (0.58,1.13)</span></li></ul><p><span>Four matching / parceling strategies in UPI:</span></p><ul><li><span>matching: three-matched-pair</span></li><li><span>parceling</span></li><li><span>two-matched-pair and one parcel (2M + P):  the two most reliable indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> and </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> were matched to create two product indicators and the least reliable indicator of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E9-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E9-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMAIN-31" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_1</script><span> was matched with the parcel of the remaining indicators of </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.071ex" height="2.467ex" viewBox="0 -771.7 891.6 1062.3" role="img" focusable="false" style="vertical-align: -0.675ex;"><defs><path stroke-width="0" id="E10-MJMATHI-3BE" d="M268 632Q268 704 296 704Q314 704 314 687Q314 682 311 664T308 635T309 620V616H315Q342 619 360 619Q443 619 443 586Q439 548 358 546H344Q326 546 317 549T290 566Q257 550 226 505T195 405Q195 381 201 364T211 342T218 337Q266 347 298 347Q375 347 375 314Q374 297 359 288T327 277T280 275Q234 275 208 283L195 286Q149 260 119 214T88 130Q88 116 90 108Q101 79 129 63T229 20Q238 17 243 15Q337 -21 354 -33Q383 -53 383 -94Q383 -137 351 -171T273 -205Q240 -205 202 -190T158 -167Q156 -163 156 -159Q156 -151 161 -146T176 -140Q182 -140 189 -143Q232 -168 274 -168Q286 -168 292 -165Q313 -151 313 -129Q313 -112 301 -104T232 -75Q214 -68 204 -64Q198 -62 171 -52T136 -38T107 -24T78 -8T56 12T36 37T26 66T21 103Q21 149 55 206T145 301L154 307L148 313Q141 319 136 323T124 338T111 358T103 382T99 413Q99 471 143 524T259 602L271 607Q268 618 268 632Z"></path><path stroke-width="0" id="E10-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMATHI-3BE" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-32" x="619" y="-213"></use></g></svg></span><script type="math/tex">\xi_2</script><span> to create the third product indicator.</span></li><li><span>one-matched-pair and two parcels (M + 2P)</span></li></ul><p>&nbsp;</p><p><span>It is appropriate to treat ordered-categorical indicators with five or more categories as continuous indicators in confirmatory factor analysis</span></p><p><span>Matching: UPI matching approach produced unbiased estimates of interaction effect with correct Type I error rates with N&gt;=1,000 while it underestimated standard errors when the indicators were non-symmetrically distributed. </span></p><p><span>Parceling:  produced unbiased estimates of the interaction effect with good coverage, and Type I error rates for all indicator type conditions (i.e., continuous, five-category, three-category) and across all sample sizes when the indicators were symmetrical. When the indicators were nonsymmetrical, UPI parceling models resulted in highly overestimated interaction effects, and low coverage rates with increased sample size (as low as 0.4%) in all conditions except with three-category severely skewed and kurtotic indicators. </span></p><p><span>The new methods combined Matching and Parceling did not reach outstanding performance.</span></p><p><span>LMS approach performed similar to the UPI parceling approach</span></p><h2><a name="suggestions" class="md-header-anchor"></a><span>Suggestions</span></h2><p><span>Use a parceling strategy to create product indicators in the UPI approach or using the LMS approach when the categorical indicators are symmetrically distributed. </span></p><p><span>Do NOT use UPI parceling or LMS when the indicators are skewed or kurtotic. </span></p><p><span>Use UPI 2M + P for continuous skewed and kurtotic indicators with caution. It can produce suboptimal standard error estimates, Type I error rates, power, or coverage rates, depending on particular research conditions. </span></p><h2><a name="my-thoughts" class="md-header-anchor"></a><span>My Thoughts</span></h2><p><span>Use instrumental variables when the indicators are skewed or kurtotic. Instrumental variables can also be used in UPI matching models to make use of all the indicators.</span></p><p>&nbsp;</p><center>
 <ul class="actions">
 <li><a href="https://www.lijinzhang.xyz/blog_200520_summary.html" class="button">RETURN</a></li>
 </ul>			

@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>[Sum]Variable_Selection_in_SEMs_with_Regularized_MIMIC_Models</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+<title>[Sum]Variable_Selection_in_SEMs_with_Regularized_MIMIC_Models</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -16,22 +16,21 @@ a:active, a:hover { outline: 0px; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
   .CodeMirror-gutters { display: none !important; }
 }
-#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write li > figure:first-child { margin-top: -20px; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
-p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
@@ -43,7 +42,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -52,8 +51,8 @@ tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
-.CodeMirror-linenumber { }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -63,7 +62,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
 .md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -72,7 +71,7 @@ div.hr:focus { cursor: none; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -81,29 +80,29 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
   .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
 .md-math-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -116,7 +115,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -127,10 +126,10 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; }
-a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
 .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
@@ -139,314 +138,80 @@ a.md-print-anchor { white-space: pre !important; border: none !important; displa
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
 .MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
 .MathJax_SVG * { transition: none; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
-[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom-width: 0px; }
+table tr th { border-bottom: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
-mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
-.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
-html {
-	font-size: 19px;
-}
-
-html, body {
-	margin: auto;
-	background: #fefefe;
-}
-body {
-	font-family: "Vollkorn", Palatino, Times;
-	color: #333;
-	line-height: 1.4;
-	text-align: justify;
-}
-
-#write {
-	max-width: 960px;
-	margin: 0 auto;
-	margin-bottom: 2em;
-	line-height: 1.53;
-	padding-top: 40px;
-}
-
-@media only screen and (min-width: 1400px) {
-	#write {
-		max-width: 1100px;
-	}
-}
-
-/* Typography
--------------------------------------------------------- */
-
-#write>h1:first-child,
-h1 {
-	margin-top: 1.6em;
-	font-weight: normal;
-}
-
-h1 {
-	font-size:3em;
-}
-
-h2 {
-	margin-top:2em;
-	font-weight: normal;
-}
-
-h3 {
-	font-weight: normal;
-	font-style: italic;
-	margin-top: 3em;
-}
-
-h1, 
-h2, 
-h3{
-	text-align: center;
-}
-
-h2:after{
-	border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    display: block;
-    margin: 0 auto;
-    height: 1px;
-}
-
-h1+h2, h2+h3 {
-	margin-top: 0.83em;
-}
-
-p,
-.mathjax-block {
-	margin-top: 0;
-	-webkit-hypens: auto;
-	-moz-hypens: auto;
-	hyphens: auto;
-}
-ul {
-	list-style: square;
-	padding-left: 1.2em;
-}
-ol {
-	padding-left: 1.2em;
-}
-blockquote {
-	margin-left: 1em;
-	padding-left: 1em;
-	border-left: 1px solid #ddd;
-}
-code,
-pre {
-	font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
-	font-size: .9em;
-	background: white;
-}
-.md-fences{
-	margin-left: 1em;
-	padding-left: 1em;
-	border: 1px solid #ddd;
-	padding-bottom: 8px;
-	padding-top: 6px;
-	margin-bottom: 1.5em;
-}
-
-a {
-	color: #2484c1;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
-}
-a img {
-	border: none;
-}
-h1 a,
-h1 a:hover {
-	color: #333;
-	text-decoration: none;
-}
-hr {
-	color: #ddd;
-	height: 1px;
-	margin: 2em 0;
-	border-top: solid 1px #ddd;
-	border-bottom: none;
-	border-left: 0;
-	border-right: 0;
-}
-.ty-table-edit {
-	background: #ededed;
-    padding-top: 4px;
-}
-table {
-	margin-bottom: 1.333333rem
-}
-table th,
-table td {
-	padding: 8px;
-	line-height: 1.333333rem;
-	vertical-align: top;
-	border-top: 1px solid #ddd
-}
-table th {
-	font-weight: bold
-}
-table thead th {
-	vertical-align: bottom
-}
-table caption+thead tr:first-child th,
-table caption+thead tr:first-child td,
-table colgroup+thead tr:first-child th,
-table colgroup+thead tr:first-child td,
-table thead:first-child tr:first-child th,
-table thead:first-child tr:first-child td {
-	border-top: 0
-}
-table tbody+tbody {
-	border-top: 2px solid #ddd
-}
-
-.task-list{
-	padding:0;
-}
-
-.md-task-list-item {
-	padding-left: 1.6rem;
-}
-
-.md-task-list-item > input:before {
-	content: '\221A';
-	display: inline-block;
-	width: 1.33333333rem;
-  	height: 1.6rem;
-	vertical-align: middle;
-	text-align: center;
-	color: #ddd;
-	background-color: #fefefe;
-}
-
-.md-task-list-item > input:checked:before,
-.md-task-list-item > input[checked]:before{
-	color: inherit;
-}
-.md-tag {
-	color: inherit;
-	font: inherit;
-}
-#write pre.md-meta-block {
-	min-height: 35px;
-	padding: 0.5em 1em;
-}
-#write pre.md-meta-block {
-	white-space: pre;
-	background: #f8f8f8;
-	border: 0px;
-	color: #999;
-	
-	width: 100vw;
-	max-width: calc(100% + 60px);
-	margin-left: -30px;
-	border-left: 30px #f8f8f8 solid;
-	border-right: 30px #f8f8f8 solid;
-
-	margin-bottom: 2em;
-	margin-top: -1.3333333333333rem;
-	padding-top: 26px;
-	padding-bottom: 10px;
-	line-height: 1.8em;
-	font-size: 0.9em;
-	font-size: 0.76em;
-	padding-left: 0;
-}
-.md-img-error.md-image>.md-meta{
-	vertical-align: bottom;
-}
-#write>h5.md-focus:before {
-	top: 2px;
-}
-
-.md-toc {
-	margin-top: 40px;
-}
-
-.md-toc-content {
-	padding-bottom: 20px;
-}
-
-.outline-expander:before {
-	color: inherit;
-	font-size: 14px;
-	top: auto;
-	content: "\f0da";
-	font-family: FontAwesome;
-}
-
-.outline-expander:hover:before,
-.outline-item-open>.outline-item>.outline-expander:before {
-  	content: "\f0d7";
-}
-
-/** source code mode */
-#typora-source {
-	font-family: Courier, monospace;
-    color: #6A6A6A;
-}
-
-.html-for-mac #typora-sidebar {
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-}
-
-.cm-s-typora-default .cm-header, 
-.cm-s-typora-default .cm-property,
-.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
-	color: #428bca;
-}
-
-.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
-	color: #777777;
-}
-
-.typora-node .file-list-item-parent-loc, 
-.typora-node .file-list-item-time, 
-.typora-node .file-list-item-summary {
-	font-family: arial, sans-serif;
-}
-
-.md-task-list-item>input {
-    margin-left: -1.3em;
-    margin-top: calc(1rem - 12px);
-}
-
-.md-mathjax-midline {
-	background: #fafafa;
-}
-
-.md-fences .code-tooltip {
-	bottom: -2em !important;
-}
-
-.dropdown-menu .divider {
-	border-color: #e5e5e5;
-}
+html { font-size: 19px; }
+html, body { margin: auto; background: rgb(254, 254, 254); }
+body { font-family: Vollkorn, Palatino, Times; color: rgb(51, 51, 51); line-height: 1.4; text-align: justify; }
+#write { max-width: 960px; margin: 0px auto 2em; line-height: 1.53; padding-top: 40px; }
+#write > h1:first-child, h1 { margin-top: 1.6em; font-weight: normal; }
+h1 { font-size: 3em; }
+h2 { margin-top: 2em; font-weight: normal; }
+h3 { font-weight: normal; font-style: italic; margin-top: 3em; }
+h1, h2, h3 { text-align: center; }
+h2::after { border-bottom: 1px solid rgb(47, 47, 47); content: ""; width: 100px; display: block; margin: 0px auto; height: 1px; }
+h1 + h2, h2 + h3 { margin-top: 0.83em; }
+p, .mathjax-block { margin-top: 0px; }
+ul { list-style: square; padding-left: 1.2em; }
+ol { padding-left: 1.2em; }
+blockquote { margin-left: 1em; padding-left: 1em; border-left: 1px solid rgb(221, 221, 221); }
+code, pre { font-family: Consolas, Menlo, Monaco, monospace, serif; font-size: 0.9em; background: white; }
+.md-fences { margin-left: 1em; padding-left: 1em; border: 1px solid rgb(221, 221, 221); padding-bottom: 8px; padding-top: 6px; margin-bottom: 1.5em; }
+a { color: rgb(36, 132, 193); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img { border: none; }
+h1 a, h1 a:hover { color: rgb(51, 51, 51); text-decoration: none; }
+hr { color: rgb(221, 221, 221); height: 1px; margin: 2em 0px; border-top: 1px solid rgb(221, 221, 221); border-bottom: none; border-left: 0px; border-right: 0px; }
+.ty-table-edit { background: rgb(237, 237, 237); padding-top: 4px; }
+table { margin-bottom: 1.33333rem; }
+table th, table td { padding: 8px; line-height: 1.33333rem; vertical-align: top; border-top: 1px solid rgb(221, 221, 221); }
+table th { font-weight: bold; }
+table thead th { vertical-align: bottom; }
+table caption + thead tr:first-child th, table caption + thead tr:first-child td, table colgroup + thead tr:first-child th, table colgroup + thead tr:first-child td, table thead:first-child tr:first-child th, table thead:first-child tr:first-child td { border-top: 0px; }
+table tbody + tbody { border-top: 2px solid rgb(221, 221, 221); }
+.task-list { padding: 0px; }
+.md-task-list-item { padding-left: 1.6rem; }
+.md-task-list-item > input::before { content: "√"; display: inline-block; width: 1.33333rem; height: 1.6rem; vertical-align: middle; text-align: center; color: rgb(221, 221, 221); background-color: rgb(254, 254, 254); }
+.md-task-list-item > input:checked::before, .md-task-list-item > input[checked]::before { color: inherit; }
+.md-tag { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+#write pre.md-meta-block { min-height: 35px; padding: 0.5em 1em; }
+#write pre.md-meta-block { white-space: pre; background: rgb(248, 248, 248); border-width: 0px 30px; border-top-style: initial; border-bottom-style: initial; border-top-color: initial; border-bottom-color: initial; border-image: initial; color: rgb(153, 153, 153); width: 100vw; max-width: calc(100% + 60px); margin-left: -30px; border-left-style: solid; border-left-color: rgb(248, 248, 248); border-right-style: solid; border-right-color: rgb(248, 248, 248); margin-bottom: 2em; margin-top: -1.33333rem; padding-top: 26px; padding-bottom: 10px; line-height: 1.8em; font-size: 0.76em; padding-left: 0px; }
+.md-img-error.md-image > .md-meta { vertical-align: bottom; }
+#write > h5.md-focus::before { top: 2px; }
+.md-toc { margin-top: 40px; }
+.md-toc-content { padding-bottom: 20px; }
+.outline-expander::before { color: inherit; font-size: 14px; top: auto; content: ""; font-family: FontAwesome; }
+.outline-expander:hover::before, .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+#typora-source { font-family: Courier, monospace; color: rgb(106, 106, 106); }
+.html-for-mac #typora-sidebar { box-shadow: rgba(0, 0, 0, 0.176) 0px 6px 12px; }
+.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property, .CodeMirror.cm-s-typora-default div.CodeMirror-cursor { color: rgb(66, 139, 202); }
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number { color: rgb(119, 119, 119); }
+.typora-node .file-list-item-parent-loc, .typora-node .file-list-item-time, .typora-node .file-list-item-summary { font-family: arial, sans-serif; }
+.md-task-list-item > input { margin-left: -1.3em; margin-top: calc(1rem - 12px); }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+.md-fences .code-tooltip { bottom: -2em !important; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
 
 
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
 </style>
 </head>
-<body class='typora-export' >
-<div  id='write'  class = 'is-mac'><h1><a name="variable-selection-in-structural-equation-models-with-regularized-mimic-models" class="md-header-anchor"></a><span>Variable Selection in Structural Equation Models with Regularized MIMIC Models</span></h1><p><span>Jacobucci, R., Brandmaier, A., &amp; Kievit, R. (2019). A practical guide to variable selection in structural</span>
-<span>equation models with regularized MIMIC models. </span><em><span>Advances in Methods and Practices in Psychological</span></em>
-<em><span>Science, 2</span></em><span>, 55-76.</span></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" style="" href="#variable-selection-in-structural-equation-models-with-regularized-mimic-models">Variable Selection in Structural Equation Models with Regularized MIMIC Models</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" style="" href="#backgroud">Backgroud</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n22"><a class="md-toc-inner" style="" href="#simulation-study">Simulation Study</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n23"><a class="md-toc-inner" style="" href="#model">Model</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n44"><a class="md-toc-inner" style="" href="#empirical-application">Empirical application</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n49"><a class="md-toc-inner" style="" href="#empirical-application-2">Empirical application 2</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n65"><a class="md-toc-inner" style="" href="#discussion">Discussion</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n57"><a class="md-toc-inner" style="" href="#my-thoughts">My Thoughts</a></span></p></div><h2><a name="backgroud" class="md-header-anchor"></a><span>Backgroud</span></h2><p><span>large predictors, small sample size problem</span></p><p>&nbsp;</p><p><span>variable selection: from the notorious stepwise variable selection procedures (cf. Thompson, 1995) to more complex and comprehensive approaches such as support vector machines or random forests.</span></p><p>&nbsp;</p><p><span>ridge, lasso, and elastic net</span></p><p><span>lasso: perfroms better in variable selection</span></p><p><span>Ridge regularization: better handles multicollinearity among predictors.</span></p><p><span>-- &gt; elastic net</span></p><p>&nbsp;</p><p><span>&quot;Non-zero coefficients can be thought of as important (e.g. see Laurin, Boomsma, &amp; Lubke, 2016). This stands in stark contrast to the use of p-values, as using regularization to label parameters as important does not rely on any asymptotic foundations (it does not make statements with regards to a population). In particular, since the regularized estimates move away from the point of maximum likelihood, asymptotic distributions of parameter estimates do not hold anymore.&quot;</span></p><p>&nbsp;</p><p><span>regsem</span></p><p><img src="/Users/lijin/Library/Application Support/typora-user-images/image-20200821223031937.png" referrerpolicy="no-referrer" alt="image-20200821223031937"></p><p>&nbsp;</p><p>&nbsp;</p><p><span>Purpose: examine the possible benefits of regularization in the Multiple Indicator, Multiple Causes model (MIMIC) models</span></p><p>&nbsp;</p><h2><a name="simulation-study" class="md-header-anchor"></a><span>Simulation Study</span></h2><h4><a name="model" class="md-header-anchor"></a><span>Model</span></h4><p><span>1 factor 6 items, 100 predictors</span></p><p><span>collinearity_con = c(0, 0.2, 0.5, 0.8, 0.95) </span></p><p><span>N_con = c(150,250,350,500,800,2000)    </span></p><p><span>The idea of using real data sets to validate a statistical method was used in MacCallum et al. (1992). </span></p><ul><li><span>Different from MacCallum et al. (1992), the raw data set is transformed so that the “population covariance” matrix in our study is known and so are the locations and population values of the parameters in a correctly specified model. </span></li><li><span>We also used robust transformation to deal with nonnormally distributed data: M-estimation weights individual observations differently in estimating the population means and covariance matrix, and cases that are farther away from the center get smaller weights than those located near the center of the distribution of the sample. </span></li><li><span>N = 80, 100, 120, 150, 200, 300; At each sample size, 5 independent replications are drawn</span></li></ul><p><span>(notes: a way to save time in simulation study .....)</span></p><p><span>Because it is time-consuming to conduct model modifications, MacCallum et al. (1992) used 10 replications and 4 model modifications for each replication in their study</span></p><p>&nbsp;</p><p><span>Evaluation: Type I and Type II, RMSE</span></p><p><span>Estimation: lavaan and regsem; lasso and elastic net (results were almost identical, so just report the results of lasso method); lambda: based on BIC</span></p><p>&nbsp;</p><p><span>At higher sample sizes, MLE performed well in comparison to Lasso with regard to RMSE, and even more so for RB. At smaller sample sizes (150, 250), the Lasso performed better than MLE. Somewhat surprisingly, when the amount of correlation among all predictors was extremely high (0.95), the Lasso produced a large amount of RB in the factor loadings. </span></p><p><span>Lasso committed far more Type I errors with the noise variables (estimating noise variables as non-zero), but also had much lower Type II errors (i.e., it rarely omitted a truly predictive variable) across the small, medium and large variables in each condition.</span></p><p>&nbsp;</p><h2><a name="empirical-application" class="md-header-anchor"></a><span>Empirical application</span></h2><p><span>In cognitive neuroscience, where many features of brain structure and function may have complementary effects, the challenge is how to best reconcile the dimensionality constraints for covariance based methodologies such as SEM, with the richness of the imaging metrics (which may include hundreds of measures per individual). </span></p><p>&nbsp;</p><p><span>MIMIC model: tests the joint prediction of the latent variable (with 3 items) by all 48 tracts which allows one to quantify if one or more white matter tracts help predict individual differences in visual short term memory.</span></p><p><span>Results: 6 important predictors</span></p><h2><a name="empirical-application-2" class="md-header-anchor"></a><span>Empirical application 2</span></h2><p><span>three factors, 42 items</span></p><p><span>MLE: 17 parameters</span></p><p><span>Lasso: 21 parameters</span></p><h2><a name="discussion" class="md-header-anchor"></a><span>Discussion</span></h2><p><span>small sample size with Bayesian estimation: we did not include any conditions with N &lt; 100.  In regularized regression it is possible to test models with P &gt; N (where P is the number of predictors and N is the sample size), however, to our knowledge, this has not been done using traditional SEM estimation methods such as MLE. </span></p><p><span>p-value</span></p><p><span>Additional methods include the use of heuristic search algorithms (e.g. Marcoulides &amp; Ing, 2012), various methods for identifying group differences (Frick, Strobl, &amp; Zeileis, 2015; Kim &amp; von Oertzen, 2017; Tutz &amp; Schauberger, 2015), and the use of graphical models for identifying latent variables (e.g Epskamp, Rhemtulla, &amp; Borsboom, 2016).</span></p><p><span>Relaxed lasso is suggested</span></p><p>&nbsp;</p><p>&nbsp;</p><h2><a name="my-thoughts" class="md-header-anchor"></a><span>My Thoughts</span></h2><p><span>&quot;As there is no generally optimal value for λ, is common to test a range of λ values, combined with cross-validation, to examine what the most appropriate degree of regularization is for a given dataset.&quot;</span></p><p><span>cross-validation can also be used when choosing the prior variance in Bayesian measurement invariance</span></p><p>&nbsp;</p><p><span>Datasets:  </span><a href='https://openpsy' target='_blank' class='url'>https://openpsy</a><span> chometrics.org/_rawdata/</span></p><p>&nbsp;</p><center>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>Variable Selection in Structural Equation Models with Regularized MIMIC Models</h1><p>Jacobucci, R., Brandmaier, A., &amp; Kievit, R. (2019). A practical guide to variable selection in structural
+equation models with regularized MIMIC models. <em>Advances in Methods and Practices in Psychological</em>
+<em>Science, 2</em>, 55-76.</p><div class='md-toc' mdtype='toc'><p class="md-toc-content"><span class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" href="#header-n0">Variable Selection in Structural Equation Models with Regularized MIMIC Models</a></span><span class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" href="#header-n4">Backgroud</a></span><span class="md-toc-item md-toc-h2" data-ref="n22"><a class="md-toc-inner" href="#header-n22">Simulation Study</a></span><span class="md-toc-item md-toc-h4" data-ref="n23"><a class="md-toc-inner" href="#header-n23">Model</a></span><span class="md-toc-item md-toc-h2" data-ref="n44"><a class="md-toc-inner" href="#header-n44">Empirical application</a></span><span class="md-toc-item md-toc-h2" data-ref="n49"><a class="md-toc-inner" href="#header-n49">Empirical application 2</a></span><span class="md-toc-item md-toc-h2" data-ref="n53"><a class="md-toc-inner" href="#header-n53">Discussion</a></span><span class="md-toc-item md-toc-h2" data-ref="n60"><a class="md-toc-inner" href="#header-n60">My Thoughts</a></span></p></div><h2><a name='header-n4' class='md-header-anchor '></a>Backgroud</h2><p>large predictors, small sample size problem</p><p>&nbsp;</p><p>variable selection: from the notorious stepwise variable selection procedures (cf. Thompson, 1995) to more complex and comprehensive approaches such as support vector machines or random forests.</p><p>&nbsp;</p><p>ridge, lasso, and elastic net</p><p>lasso: perfroms better in variable selection</p><p>Ridge regularization: better handles multicollinearity among predictors.</p><p>-- &gt; elastic net</p><p>&nbsp;</p><p>&quot;Non-zero coefficients can be thought of as important (e.g. see Laurin, Boomsma, &amp; Lubke, 2016). This stands in stark contrast to the use of p-values, as using regularization to label parameters as important does not rely on any asymptotic foundations (it does not make statements with regards to a population). In particular, since the regularized estimates move away from the point of maximum likelihood, asymptotic distributions of parameter estimates do not hold anymore.&quot;</p><p>&nbsp;</p><p>regsem</p><p><img src='fig/practical_guide_regsem.png' alt='practical_guide_regsem' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>&nbsp;</p><p>Purpose: examine the possible benefits of regularization in the Multiple Indicator, Multiple Causes model (MIMIC) models</p><p>&nbsp;</p><h2><a name='header-n22' class='md-header-anchor '></a>Simulation Study</h2><h4><a name='header-n23' class='md-header-anchor '></a>Model</h4><p>1 factor 6 items, 100 predictors</p><p>collinearity_con = c(0, 0.2, 0.5, 0.8, 0.95) </p><p>N_con = c(150,250,350,500,800,2000)    </p><p>The idea of using real data sets to validate a statistical method was used in MacCallum et al. (1992). </p><ul><li>Different from MacCallum et al. (1992), the raw data set is transformed so that the “population covariance” matrix in our study is known and so are the locations and population values of the parameters in a correctly specified model. </li><li>We also used robust transformation to deal with nonnormally distributed data: M-estimation weights individual observations differently in estimating the population means and covariance matrix, and cases that are farther away from the center get smaller weights than those located near the center of the distribution of the sample. </li><li>N = 80, 100, 120, 150, 200, 300; At each sample size, 5 independent replications are drawn</li></ul><p>(notes: a way to save time in simulation study .....)</p><p>Because it is time-consuming to conduct model modifications, MacCallum et al. (1992) used 10 replications and 4 model modifications for each replication in their study</p><p>&nbsp;</p><p>Evaluation: Type I and Type II, RMSE</p><p>Estimation: lavaan and regsem; lasso and elastic net (results were almost identical, so just report the results of lasso method); lambda: based on BIC</p><p>&nbsp;</p><p>At higher sample sizes, MLE performed well in comparison to Lasso with regard to RMSE, and even more so for RB. At smaller sample sizes (150, 250), the Lasso performed better than MLE. Somewhat surprisingly, when the amount of correlation among all predictors was extremely high (0.95), the Lasso produced a large amount of RB in the factor loadings. </p><p>Lasso committed far more Type I errors with the noise variables (estimating noise variables as non-zero), but also had much lower Type II errors (i.e., it rarely omitted a truly predictive variable) across the small, medium and large variables in each condition.</p><p>&nbsp;</p><h2><a name='header-n44' class='md-header-anchor '></a>Empirical application</h2><p>In cognitive neuroscience, where many features of brain structure and function may have complementary effects, the challenge is how to best reconcile the dimensionality constraints for covariance based methodologies such as SEM, with the richness of the imaging metrics (which may include hundreds of measures per individual). </p><p>&nbsp;</p><p>MIMIC model: tests the joint prediction of the latent variable (with 3 items) by all 48 tracts which allows one to quantify if one or more white matter tracts help predict individual differences in visual short term memory.</p><p>Results: 6 important predictors</p><h2><a name='header-n49' class='md-header-anchor '></a>Empirical application 2</h2><p>three factors, 42 items</p><p>MLE: 17 parameters</p><p>Lasso: 21 parameters</p><h2><a name='header-n53' class='md-header-anchor '></a>Discussion</h2><p>small sample size with Bayesian estimation: we did not include any conditions with N &lt; 100.  In regularized regression it is possible to test models with P &gt; N (where P is the number of predictors and N is the sample size), however, to our knowledge, this has not been done using traditional SEM estimation methods such as MLE. </p><p>p-value</p><p>Additional methods include the use of heuristic search algorithms (e.g. Marcoulides &amp; Ing, 2012), various methods for identifying group differences (Frick, Strobl, &amp; Zeileis, 2015; Kim &amp; von Oertzen, 2017; Tutz &amp; Schauberger, 2015), and the use of graphical models for identifying latent variables (e.g Epskamp, Rhemtulla, &amp; Borsboom, 2016).</p><p>Relaxed lasso is suggested</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n60' class='md-header-anchor '></a>My Thoughts</h2><p>&quot;As there is no generally optimal value for λ, is common to test a range of λ values, combined with cross-validation, to examine what the most appropriate degree of regularization is for a given dataset.&quot;</p><p>cross-validation can also be used when choosing the prior variance in Bayesian measurement invariance</p><p>&nbsp;</p><p>Datasets:  <a href='https://openpsy' target='_blank' class='url'>https://openpsy</a> chometrics.org/_rawdata/</p><p>&nbsp;</p><center>
 <ul class="actions">
 <li><a href="https://www.lijinzhang.xyz/blog_200520_summary.html" class="button">Return</a></li>
 </ul>			
