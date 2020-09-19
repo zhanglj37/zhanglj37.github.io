@@ -151,7 +151,7 @@ The initial values of a fitted model can be obtained via blavInspect(); i.e.,
 
 #### modify the default jags code and reestimate the model
 
-![](fig/200912_5.png)
+![](fig/200912_4.png)
 
 ### Measurement invariance
 
