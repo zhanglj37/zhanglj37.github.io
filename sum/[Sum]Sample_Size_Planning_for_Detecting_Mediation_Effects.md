@@ -5,7 +5,7 @@ Procedure Considering Uncertainty in Effect Size Estimates? *Structural Equation
 
 [TOC]
 
-## Backgroud and Purpose
+## Background and Purpose
 
 ### Sample size planning
 
