@@ -1,6 +1,4 @@
-# A Tutorial on Regularized Partial
-Correlation Networks 
-
+# A Tutorial on Regularized Partial Correlation Networks 
 Epskamp , S., & Fried, E.I. (2018). A Tutorial on Regularized Partial Correlation Networks. Psychological Methods, 23(4), 617-634.
 
 [TOC]
