@@ -156,9 +156,7 @@ After inspecting the scree plot of the selection rates, the cutoff for selection
 
 CMF: there is no formal proof of convergence, and the algorithm may take a long time to stabilize 
 
-Future research should focus on embedding mediation analysis theory directly in penalization procedures for these
-datasets, either in a classical estimation setting (Zhao & Luo, 2016) or using Bayesian estimation with shrinkage
-priors (Erp, Oberski, & Mulder, 2018). 
+Future research should focus on embedding mediation analysis theory directly in penalization procedures for these datasets, either in a classical estimation setting (Zhao & Luo, 2016) or using Bayesian estimation with shrinkage priors (Erp, Oberski, & Mulder, 2018). 
 
 
 
