@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lijin Zhang</title>
+    <link>https://zhanglj37.github.io/</link>
+    <description>Recent content on Lijin Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhanglj37.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>北美博士申请攻略</title>
+      <link>https://zhanglj37.github.io/post/2022-03-03-tutorial-phd-app/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/post/2022-03-03-tutorial-phd-app/</guid>
+      <description>https://github.com/zhanglj37/Tutorial-on-PhD-Application</description>
+    </item>
+    
+    <item>
+      <title>从贝叶斯视角看多层模型</title>
+      <link>https://zhanglj37.github.io/post/bayesian-multilevel-model/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/post/bayesian-multilevel-model/</guid>
+      <description>本文首发于统计之都
+多层模型 多层模型常被用于处理嵌套数据，如样本嵌套于班级、社区中的数据，追踪数据也可被视为多层数据中的一种，其中不同的测量时间点嵌套在个体层次中。为阐述多层模型的原理，以一个仅包含一个变量的两层模型为例，模型对应公式如下：
+$$ Level 1: y_{ij} = \theta_j + e_{ij} \\Level 2: \theta_j = \mu_{\theta} + r_j $$
+其中，$y_{ij}$ 代表第 $j$ 个群组中的第 $i$ 个被试在变量 $y$ 上的得分，$θ_j$ 代表第 $j$ 个群组在变量 $y$ 上的均值，$μ_θ$ 代表 $θ_j$ 的均值。$e_{ij}$ 代表个体水平的误差，$y_{ij}$ 服从 $N(θ_j,σ_e^2)$ 的分布，$r_j$ 代表群体水平的误差，$θ_j$ 服从 $N(μ_θ,σ_θ^2)$ 的分布。
+ 对于这样的数据，如果研究者认为$θ_1=θ_2=⋯=θ_j=μ_θ$，则可以忽略分组变量进行建模，其对应模型如下： $$ y_i=μ+e_i $$ 而如果研究者认为各组之间无法相互提供信息，可以对每组分别建立Level 1 的模型。
+多层模型则介于两者之间，认为 $θ_j$ 来源于 $N(μ_θ,σ_θ^2)$ 的正态分布，进而将组间的变异和组内的变异分离开。
+ 贝叶斯思想 多层模型本质上就蕴含着贝叶斯思想，它将参数 $θ_j$ 视为随机变量而非定值 $μ_θ$。而贝叶斯方法和传统频率学派方法本质的区别是：频率学派将未知参数看作常数，根据样本参数估计总体参数；而贝叶斯方法则将未知参数视为随机变量，分析的目的就是得到参数的分布 (王孟成，邓倩文，毕向阳，2017)。
+而在贝叶斯多层模型中，不仅将 $θ_j$ 参数视为随机变量，所有参数(如，$μ_θ$ 参数)都会被视为随机变量。研究者对于这些随机变量可以提供一定的先验信息，结合先验信息和数据似然函数，就可以得到参数的后验分布，而通过马尔科夫链蒙特卡洛算法，可以从后验分布中迭代地抽取大量的样本近似地反映后验分布，在该算法达到收敛的前提下，可以利用抽取的样本进行参数估计。
+下文将通过实例1展示贝叶斯多层模型结合先验信息的灵活性，并通过实例2演示如何在Mplus软件中进行贝叶斯多层建模。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zhanglj37.github.io/share/cos_multilevel/ex1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/share/cos_multilevel/ex1/</guid>
+      <description>实例1：数据、代码和结果 数据来源于Jackman(2009)
+数据 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
+main.folder &amp;lt;- getwd() R.folder &amp;lt;- paste0(main.folder, &amp;#34;R/&amp;#34;) data.folder &amp;lt;- paste0(main.folder, &amp;#34;Data/&amp;#34;) jags.folder &amp;lt;- paste0(main.folder, &amp;#34;jags/&amp;#34;) model.folder &amp;lt;- paste0(jags.folder, &amp;#34;MLM Batting Averages/&amp;#34;) data &amp;lt;- read.csv(file=paste0(data.folder, &amp;#34;multilevel.csv&amp;#34;), header=TRUE) head(data) ## name team league y## 1 Roberto Clemente Pitts NL 0.400## 2 Frank Robinson Balt AL 0.378## 3 Frank Howard Wash AL 0.356## 4 Jay Johnstone Cal AL 0.333## 5 Ken Berry Chi AL 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zhanglj37.github.io/share/cos_multilevel/ex2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/share/cos_multilevel/ex2/</guid>
+      <description>实例2：数据、代码和结果 [TOC]
+单变量模型在mplus中的实现 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
+TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: FILE IS: C:\ Mplus1\ch3new.dat; 	Format is 5f8.0, 3f8.2; VARIABLE:	 Names are deptid morale satpay female white pctbelow lev1wt lev2wt;  Usevariables are morale;  Cluster is deptid; !分组变量为deptid  Between = ; !定义组间变量  Within =;  ANALYSIS:	 Type= Twolevel; !Twolevel定义两层模型，random定义随机斜率(β1)模型  Estimator = Bayes; !定义估计方法  Biterations = (20000); !定义模型最小迭代次数为20000次  Point = Median; !</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://zhanglj37.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/about/</guid>
+      <description>  .intro{ float:right; width:65%; } .photo{ float:left; width:35%; } .center{ text-align: center; justify-content: center; }      Welcome to my website! I am a M.S. student in Pscyhology, Sun Yat-sen University. I have been very fortunate to work with Prof. Junhao Pan, Prof. Edward Ip, Prof. Xinya Liang, and Prof. Johnny Zhang.  ·  · 
+© Lijin Zhang 2019-2022 | Powered by Hugo.
+      </description>
+    </item>
+    
+    <item>
+      <title>Honors &amp; Awards</title>
+      <link>https://zhanglj37.github.io/awards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/awards/</guid>
+      <description> 2017-2021 First Prize Scholarship of Outstanding Students, Sun Yat-sen University 2020 National Scholarship, Minister of Education of China 2019 Third Prize, Outstanding Thesis Award, The 22nd National Academic Conference of Psychology 2019 Excellent Undergraduate Thesis, Sun Yat-sen University 2018 Outstanding Presenter, Undergraduate Psychology Forum, Peking University  </description>
+    </item>
+    
+    <item>
+      <title>Professional Experiences</title>
+      <link>https://zhanglj37.github.io/experiences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/experiences/</guid>
+      <description>Content  Ad-hoc Reviewer Teaching Assistant Research Assistant Memberships Honors and Awards  Ad-hoc Reviewer Structural Equation Modeling
+Journal of Behavioral Data Science
+Teaching Assistant 2021 - Advanced Structural Equation Modeling, Sun Yat-sen University
+2020 - Structural Equation Modeling, Sun Yat-sen University
+2020 - Psychological Statistics, Sun Yat-sen University
+Research Assistant Lab for Big Data Methodology, University of Notre Dame Remote, 06/2021-10/2021
+Website: https://bigdatalab.nd.edu
+Advisor: Dr. Johnny Zhang
+Research Topics: Text Mining, Network Analysis</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://zhanglj37.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanglj37.github.io/publications/</guid>
+      <description>Content
+ Book Chapters Journal Articles  Manuscripts under Review   Conference Presentations  Invited Talk Contributed Conference Presentations   Software Development  Research Topics
+ Bayesian Lasso Confirmatory Factor Analysis:  Zhang, Ip, &amp;amp; Pan, 2021 - published in Structural Equation Modeling; Zhang et al., 2021 - published in Structural Equation Modeling; Chen et al., 2021 - published in Psychological Methods.   Mediation and Moderation Analysis:  Feng et al.</description>
+    </item>
+    
+  </channel>
+</rss>
