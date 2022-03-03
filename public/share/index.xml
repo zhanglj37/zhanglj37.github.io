@@ -1,32 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Shares on Lijin Zhang</title>
-    <link>https://zhanglj37.github.io/share/</link>
-    <description>Recent content in Shares on Lijin Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://zhanglj37.github.io/share/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://zhanglj37.github.io/share/cos_multilevel/ex1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhanglj37.github.io/share/cos_multilevel/ex1/</guid>
-      <description>实例1：数据、代码和结果 数据来源于Jackman(2009)
-数据 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
-main.folder &amp;lt;- getwd() R.folder &amp;lt;- paste0(main.folder, &amp;#34;R/&amp;#34;) data.folder &amp;lt;- paste0(main.folder, &amp;#34;Data/&amp;#34;) jags.folder &amp;lt;- paste0(main.folder, &amp;#34;jags/&amp;#34;) model.folder &amp;lt;- paste0(jags.folder, &amp;#34;MLM Batting Averages/&amp;#34;) data &amp;lt;- read.csv(file=paste0(data.folder, &amp;#34;multilevel.csv&amp;#34;), header=TRUE) head(data) ## name team league y## 1 Roberto Clemente Pitts NL 0.400## 2 Frank Robinson Balt AL 0.378## 3 Frank Howard Wash AL 0.356## 4 Jay Johnstone Cal AL 0.333## 5 Ken Berry Chi AL 0.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zhanglj37.github.io/share/cos_multilevel/ex2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhanglj37.github.io/share/cos_multilevel/ex2/</guid>
-      <description>实例2：数据、代码和结果 [TOC]
-单变量模型在mplus中的实现 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
-TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: FILE IS: C:\ Mplus1\ch3new.dat; 	Format is 5f8.0, 3f8.2; VARIABLE:	 Names are deptid morale satpay female white pctbelow lev1wt lev2wt;  Usevariables are morale;  Cluster is deptid; !分组变量为deptid  Between = ; !定义组间变量  Within =;  ANALYSIS:	 Type= Twolevel; !Twolevel定义两层模型，random定义随机斜率(β1)模型  Estimator = Bayes; !定义估计方法  Biterations = (20000); !定义模型最小迭代次数为20000次  Point = Median; !</description>
-    </item>
-    
-  </channel>
-</rss>
