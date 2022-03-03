@@ -1,0 +1,63 @@
+title: Lijin Zhang
+author: Lijin Zhang
+baseurl: https://zhanglj37.github.io
+languageCode: en-us
+theme: hugo-ivy
+googleAnalytics: ''
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+#permalinks:
+#  post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: Home
+      url: /about
+      weight: 1
+    - name: Publications
+      url: /publications
+      weight: 2
+    - name: Experiences
+      url: /experiences
+      weight: 3
+    - name: Blog
+      url: /post
+      weight: 4
+
+    #- name: CV
+    #  url: /share/cv_lijin.pdf
+    #  weight: 3
+    
+      
+
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: 
+  favicon: favicon.ico
+  #avatar: "/static/fig/favicon.ico"
+  #backgroundImage
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: favicon.ico
+    width: 50
+  #footer: "&copy; Lijin Zhang 2019-2022 | Proudly powered by [Hugo](https://gohugo.io)."
+  enableSearch: FALSE
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    style: friendly
