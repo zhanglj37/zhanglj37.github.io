@@ -83,7 +83,7 @@ TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: F
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zhanglj37.github.io/about/</guid>
-      <description>.intro{ float:right; width:65%; } .photo{ float:left; width:35%; } .center{ text-align: center; justify-content: center; }      Welcome to my website! I am Lijin Zhang (张沥今), a M.S. student in Psychology, Sun Yat-sen University. My research interests focus on psychometrics and quantitative methods. I have been working on Bayesian analysis and structural equation modeling with Prof. Junhao Pan, Prof. Edward Ip, Prof. Xinya Liang, and Prof. Johnny Zhang.</description>
+      <description>.intro{ float:right; width:65%; } .photo{ float:left; width:35%; } .center{ text-align: center; justify-content: center; }      Welcome to my website! I am Lijin Zhang (张沥今), a M.S. student in Psychology, Sun Yat-sen University. My research interests focus on psychometrics and quantitative methods. I have been working on Bayesian analysis, structural equation modeling, and network analysis with Prof. Junhao Pan, Prof. Edward Ip, Prof. Xinya Liang, and Prof.</description>
     </item>
     
     <item>
@@ -92,7 +92,7 @@ TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: F
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zhanglj37.github.io/experiences/</guid>
-      <description>Content  Teaching Assistant Research Assistant Ad-hoc Reviewer Memberships Honors, Awards, and Funding  Research Assistant Lab for Big Data Methodology, University of Notre Dame  Remote, 06/2021-10/2021 Website: https://bigdatalab.nd.edu Advisor: Dr. Johnny Zhang Research Topics: Text Mining, Network Analysis  Dr. Xinya Liang’s Lab, University of Arkansas  Remote, 08/2020-present Advisor: Dr. Xinya Liang Research Topics: Bayesian Regularization, Structural Equation Modeling  Psychological Statistics and Modeling Lab, Sun Yat-sen University  Guangzhou, China, 09/2017-present Website: https://www.</description>
+      <description>Content  Research Assistant Teaching Assistant Ad-hoc Reviewer Memberships Honors, Awards, and Funding  Research Assistant Lab for Big Data Methodology, University of Notre Dame  Remote, 06/2021-10/2021 Website: https://bigdatalab.nd.edu Advisor: Dr. Johnny Zhang Research Topics: Text Mining, Network Analysis  Dr. Xinya Liang’s Lab, University of Arkansas  Remote, 08/2020-present Advisor: Dr. Xinya Liang Research Topics: Bayesian Regularization, Structural Equation Modeling  Psychological Statistics and Modeling Lab, Sun Yat-sen University  Guangzhou, China, 09/2017-present Website: https://www.</description>
     </item>
     
     <item>
@@ -102,8 +102,8 @@ TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: F
       
       <guid>https://zhanglj37.github.io/publications/</guid>
       <description>Content
- Book Chapters Journal Articles  Manuscripts under Review   Conference Presentations  Invited Talk Contributed Conference Presentations   Software Development  Research Topics
- Bayesian Lasso Confirmatory Factor Analysis:  Zhang, Pan, &amp;amp; Ip, 2021 - published in Structural Equation Modeling; Zhang et al., 2021 - published in Structural Equation Modeling; Chen et al., 2021 - published in Psychological Methods. Pan, Zhang, &amp;amp; Ip, 2021 - presented at IMPS 2021.</description>
+ Book Chapters Journal Articles Conference Presentations Software Development  Research Topics
+ Bayesian Lasso Confirmatory Factor Analysis:  Zhang, Pan, &amp;amp; Ip, 2021 - published in Structural Equation Modeling; Zhang et al., 2021 - published in Structural Equation Modeling; Chen et al., 2021 - published in Psychological Methods. Pan, Zhang, &amp;amp; Ip, 2021 - presented at IMPS 2021. Ip et al., 2022 - to be presented at IMPS 2022.</description>
     </item>
     
   </channel>
