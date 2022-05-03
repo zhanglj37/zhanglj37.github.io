@@ -124,34 +124,5 @@ main.folder &amp;lt;- getwd() R.folder &amp;lt;- paste0(main.folder, &amp;#34;R/
 TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: FILE IS: C:\ Mplus1\ch3new.dat; 	Format is 5f8.0, 3f8.2; VARIABLE:	 Names are deptid morale satpay female white pctbelow lev1wt lev2wt;  Usevariables are morale;  Cluster is deptid; !分组变量为deptid  Between = ; !定义组间变量  Within =;  ANALYSIS:	 Type= Twolevel; !Twolevel定义两层模型，random定义随机斜率(β1)模型  Estimator = Bayes; !定义估计方法  Biterations = (20000); !定义模型最小迭代次数为20000次  Point = Median; !</description>
     </item>
     
-    <item>
-      <title>About me</title>
-      <link>https://lijinzhang.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lijinzhang.com/about/</guid>
-      <description>.intro{ float:right; width:70%; } .photo{ float:left; width:25%; } .center{ text-align: center; justify-content: center; }      Welcome to my website! I am an incoming Ph.D. student in Developmental and Psychological Science at Stanford University, advised by Professors Ben Domingue and Jason Yeatman. My research interests focus on psychometrics and quantitative methods. Prior to Stanford, I have worked on Bayesian analysis, structural equation modeling, and network analysis with Professors Junhao Pan, Edward Ip, Xinya Liang, and Johnny Zhang.</description>
-    </item>
-    
-    <item>
-      <title>Professional Experiences</title>
-      <link>https://lijinzhang.com/experiences/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lijinzhang.com/experiences/</guid>
-      <description>Content  Research Assistant Teaching Assistant Ad-hoc Reviewer Memberships Honors, Awards, and Funding  Research Assistant Psychological Statistics and Modeling Lab, Sun Yat-sen University  Guangzhou, China, 09/2017-present Website: https://panlab.xyz Advisor: Prof. Junhao Pan Research Topics: Bayesian Lasso Confirmatory Factor Analysis, Mediation and Moderation Analysis, Longitudinal Data Analysis  Lab for Big Data Methodology, University of Notre Dame  Remote, Summer, 2021 Website: https://bigdatalab.nd.edu Advisor: Prof. Zhiyong Johnny Zhang Research Topics: Text Mining, Network Analysis  Prof.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://lijinzhang.com/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lijinzhang.com/publications/</guid>
-      <description>Content
- Book Chapters Journal Articles Conference Presentations Software Development  Research Topics
- Bayesian Lasso Confirmatory Factor Analysis:  Zhang, Pan, &amp;amp; Ip, 2021 - published in Structural Equation Modeling. Zhang et al., 2021 - published in Structural Equation Modeling. Chen et al., 2021 - published in Psychological Methods. Pan, Zhang, &amp;amp; Ip, 2021 - presented at IMPS 2021. Ip et al., 2022 - to be presented at IMPS 2022.</description>
-    </item>
-    
   </channel>
 </rss>
