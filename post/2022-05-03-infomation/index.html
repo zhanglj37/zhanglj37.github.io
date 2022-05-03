@@ -107,7 +107,12 @@
     </div>
   </article>
 
-   
+  <nav class="post-nav">
+    <span class="nav-prev">&larr; <a href="/post/2022-04-15-phd-decision/">人间正道是沧桑</a></span>
+    <span class="nav-next"></span>
+  </nav>
+
+
    <br>
   
 <section id="comments">
@@ -130,13 +135,30 @@
 
   <hr>
   <center>
-  &copy; Lijin Zhang 2019 - 2022 | Powered by <a href="https://gohugo.io/">Hugo</a>
+    &copy; Lijin Zhang 2019 - 2022 | Powered by <a href="https://gohugo.io/">Hugo</a>
   </center>
+
 
 </main>
 
 <footer>
   
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/post\/2022-04-15-phd-decision\/';
+    
+  } else if (e.which == 39) {  
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
+
   
 
   
