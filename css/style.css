@@ -102,14 +102,17 @@ a {
   color: black;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 1px solid;
+  border-bottom: 1px dashed;
 }
 
 a:hover {
+  color: #18bfef;
+  text-decoration: none;
+  border-bottom: transparent;
 }
 
 sup a {
-  border-bottom: none;
+  border-bottom: 1px dashed;
 }
 
 /* Miscellanea */
@@ -181,7 +184,7 @@ body {
 }
 
 .masthead h1 a {
-  border-bottom: none;
+  border-bottom: 1px dashed;
 }
 
 .masthead .tagline {
@@ -348,13 +351,13 @@ thead, tfoot, tr:nth-child(even) {
   }
 
   .masthead .menu li li:last-child {
-    border-bottom: none;
+    border-bottom: 1px dashed;
   }
 
   .masthead .menu a {
     display: block;
     padding: 15px 20px;
-    border-bottom: none;
+    border-bottom: 1px dashed;
   }
 
   .masthead .menu li li a {
