@@ -184,7 +184,7 @@ body {
 }
 
 .masthead h1 a {
-  border-bottom: 1px dashed;
+  border-bottom: none;
 }
 
 .masthead .tagline {
@@ -351,13 +351,13 @@ thead, tfoot, tr:nth-child(even) {
   }
 
   .masthead .menu li li:last-child {
-    border-bottom: 1px dashed;
+    border-bottom: 1px solid;
   }
 
   .masthead .menu a {
     display: block;
     padding: 15px 20px;
-    border-bottom: 1px dashed;
+    border-bottom: 1px solid;
   }
 
   .masthead .menu li li a {
