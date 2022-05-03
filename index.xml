@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lijin Zhang</title>
-    <link>https://zhanglj37.github.io/</link>
+    <link>https://lijinzhang.com/</link>
     <description>Recent content on Lijin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhanglj37.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lijinzhang.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浅谈信息获取</title>
-      <link>https://zhanglj37.github.io/post/2022-05-03-infomation/</link>
+      <link>https://lijinzhang.com/post/2022-05-03-infomation/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/post/2022-05-03-infomation/</guid>
+      <guid>https://lijinzhang.com/post/2022-05-03-infomation/</guid>
       <description>最近处于人生阶段的转换期，常在思考未来的计划、生活如何安排，大体围绕着两个主题：信息、时间。非常粗浅地记录一下关于信息获取的一些幼稚的想法。
 对于搜集到的信息可以粗略分为主动获取和被动获取，在学习方面，现在大部分主题在互联网中都可以搜集到充足的信息，而针对这些信息在生活中应该尽量减少被动获取，把时间用于主动获取。对于专业信息如研究主题相关进展，在工作中往往是进行主动获取的。而生活信息汇集的平台质量往往不高（对比而言，专业数据库中的文献都是经过大量时间雕琢的、已经经过了筛选，而生活信息平台门槛低信息杂乱），如果采用被动获取的信息很容易浪费时间。 比如围绕一个主题（如何申请博士、办理签证）去获取信息，主动获取的方式如检索（在搜索引擎里、在论坛、知乎、微信推送、油管、B站等地方）。而这些平台，比如论坛、知乎，就可以视为信息库来利用，如果是被动在这些平台上获取信息，经常会得到很多垃圾信息、看过就忘记，纯属浪费时间。如何避免被这种垃圾信息占据时间呢、如何从里面淘出有价值的东西。带着问题去搜索是很有效的方式。
 除了主动搜集生活类平台，有什么信息是不需要这样主动淘、被动接收也值得的呢？我目前想到的一个方法就是订阅模式，关注人。人的背书是信息价值的一个重要保障。 这一点视频平台做的要比文字平台好一些。虽然知乎等平台也提供关注作者等功能，但是首页进去能够获得的信息都是杂乱的。所以我卸载了知乎，只拿它当搜索引擎用。而微信公众号平台有太多垃圾占据、还是取关后也一波又一波来的，比如快递公众号、学校需要关注的、餐饮公众号、很多垃圾信息。对比一下B站这些平台油管我每次进去主要都是看关注的人，还是更有效率很多。
@@ -24,10 +24,10 @@
     
     <item>
       <title>人间正道是沧桑</title>
-      <link>https://zhanglj37.github.io/post/2022-04-15-phd-decision/</link>
+      <link>https://lijinzhang.com/post/2022-04-15-phd-decision/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/post/2022-04-15-phd-decision/</guid>
+      <guid>https://lijinzhang.com/post/2022-04-15-phd-decision/</guid>
       <description>梦想 在拿到斯坦福offer的之前几天，我在备忘录记下一段话，大约是说我这些年的求学路上充斥着遗憾，就这最后一次，真希望不要再错过。
 的确，作为典型的小镇做题家，我甚至从没有在自己唯一擅长的事 - 做题 - 上实现梦想。初升高一分之差错过想去的班级，高考稀里糊涂来到一周前刚知道名字的学校（彼时连985是啥都刚知道），保研的时候能够拿到想要的机会了，却又自己放弃了。
 这些错过的遗憾在以后的生活里被时间淡化、又被一些经历强化，但是每一段旅程，都绕不开这种求而不得。也总会因为这种遗憾，和由此感受到的一些被鄙视，而总想证明什么，证明自己也不差。告诉自己我有更长远的目标要去实现。可人生也没有多长，这些遗憾日复一日，终究黯淡了我的希望和幻想。以至于我拿到斯坦福的offer之后，慢慢地生活中出现了以前从来没有想过的事情，比如联系到了当年崇拜的偶像，认识了一群闪闪发光有着无限可能的人，这些时刻让我感觉十分恍惚，因为我早已不再觉得人生有无限可能，我所有的天真幻想早已不复。而在我已经只求一个平庸、不是平凡、是平庸的人生的时候，现实又将我托举起来。
@@ -56,10 +56,10 @@
     
     <item>
       <title>建站指南与域名邮箱设置</title>
-      <link>https://zhanglj37.github.io/post/2022-03-08-web-develop/</link>
+      <link>https://lijinzhang.com/post/2022-03-08-web-develop/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/post/2022-03-08-web-develop/</guid>
+      <guid>https://lijinzhang.com/post/2022-03-08-web-develop/</guid>
       <description>我采用的工具：Hugo, R, GitHub, 阿里云
 下面放出了我当时建站参考的所有教程
 搭建静态网站（Hugo，R包Blogdown）  下载Hugo 在R中搭建网站教程   配置网站与个人域名（GitHub，阿里云）  域名解析与GitHub设置教程  创建个人域名邮箱  阿里云免费企业邮箱申请 - 输入自己的域名 域名解析教程：登陆阿里云，搜索企业邮箱服务，选择相应域名一键解析，设置初始密码 设置邮箱账号：采用管理员账号登陆阿里云企业邮箱，新增账户  插件：记录访客、讨论版块、与accept message  记录访客 讨论版块 accept message  </description>
@@ -67,10 +67,10 @@
     
     <item>
       <title>北美博士申请攻略</title>
-      <link>https://zhanglj37.github.io/post/2022-03-03-tutorial-phd-app/</link>
+      <link>https://lijinzhang.com/post/2022-03-03-tutorial-phd-app/</link>
       <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/post/2022-03-03-tutorial-phd-app/</guid>
+      <guid>https://lijinzhang.com/post/2022-03-03-tutorial-phd-app/</guid>
       <description>攻略包括以下模块，在 GitHub 和荷兰心理统计联盟公众号上同步发布。攻略所提到的所有资料文件都放在了这个 GitHub库 里，欢迎在上面补充。
  1. 前言 2. 材料准备  2.1. 简历 2.2. 推荐信 2.3. 成绩单 2.4. GRE 2.5. TOEFL 2.6. 文书   3. 时间线与择校 4. 套磁 5. 面试 6. 钱与录取后 7. 信息渠道 8. 背景提升与思维转变  前言 我申请的是2022 Fall计量心理学/教育测量方向，拿到了以下offer：Notre Dame, Stanford, UWISC-Madison, UNC-Chapel Hill, UCLA, UC Davis，提前撤销了其他申请。
 留学申请是一段比较孤独的探索之路，激烈地与外界碰撞并获得自己的定位和发展框架，尤其是对于没有海外经历的同学，其中有很多东西需要适应。回头看我这一年已经足够幸运，但即便是这样，过程依然充斥着焦虑和彷徨。而在那些迷茫不安的日子里，太多太多的无私帮助无数次让我热泪盈眶，在我极端焦虑的时候给我力量，并让我带着更积极的期待与憧憬拥抱未来的不确定性，没有那些帮助我的申请会完全不一样。
@@ -87,10 +87,10 @@ Biostatistics 方向 https://www.1point3acres.com/bbs/thread-728246-1-1.html</de
     
     <item>
       <title>从贝叶斯视角看多层模型</title>
-      <link>https://zhanglj37.github.io/post/bayesian-multilevel-model/</link>
+      <link>https://lijinzhang.com/post/bayesian-multilevel-model/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/post/bayesian-multilevel-model/</guid>
+      <guid>https://lijinzhang.com/post/bayesian-multilevel-model/</guid>
       <description>本文首发于统计之都
 多层模型 多层模型常被用于处理嵌套数据，如样本嵌套于班级、社区中的数据，追踪数据也可被视为多层数据中的一种，其中不同的测量时间点嵌套在个体层次中。为阐述多层模型的原理，以一个仅包含一个变量的两层模型为例，模型对应公式如下：
 \[ Level 1: y_{ij} = \theta_j + e_{ij} \\Level 2: \theta_j = \mu_{\theta} + r_j \]
@@ -104,10 +104,10 @@ Biostatistics 方向 https://www.1point3acres.com/bbs/thread-728246-1-1.html</de
     
     <item>
       <title></title>
-      <link>https://zhanglj37.github.io/share/cos_multilevel/ex1/</link>
+      <link>https://lijinzhang.com/share/cos_multilevel/ex1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/share/cos_multilevel/ex1/</guid>
+      <guid>https://lijinzhang.com/share/cos_multilevel/ex1/</guid>
       <description>实例1：数据、代码和结果 数据来源于Jackman(2009)
 数据 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
 main.folder &amp;lt;- getwd() R.folder &amp;lt;- paste0(main.folder, &amp;#34;R/&amp;#34;) data.folder &amp;lt;- paste0(main.folder, &amp;#34;Data/&amp;#34;) jags.folder &amp;lt;- paste0(main.folder, &amp;#34;jags/&amp;#34;) model.folder &amp;lt;- paste0(jags.folder, &amp;#34;MLM Batting Averages/&amp;#34;) data &amp;lt;- read.csv(file=paste0(data.folder, &amp;#34;multilevel.csv&amp;#34;), header=TRUE) head(data) ## name team league y## 1 Roberto Clemente Pitts NL 0.400## 2 Frank Robinson Balt AL 0.378## 3 Frank Howard Wash AL 0.356## 4 Jay Johnstone Cal AL 0.333## 5 Ken Berry Chi AL 0.</description>
@@ -115,10 +115,10 @@ main.folder &amp;lt;- getwd() R.folder &amp;lt;- paste0(main.folder, &amp;#34;R/
     
     <item>
       <title></title>
-      <link>https://zhanglj37.github.io/share/cos_multilevel/ex2/</link>
+      <link>https://lijinzhang.com/share/cos_multilevel/ex2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/share/cos_multilevel/ex2/</guid>
+      <guid>https://lijinzhang.com/share/cos_multilevel/ex2/</guid>
       <description>实例2：数据、代码和结果 [TOC]
 单变量模型在mplus中的实现 18名棒球运动员在1970年赛季的前45次击球的平均击中率(y变量)
 TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: FILE IS: C:\ Mplus1\ch3new.dat; 	Format is 5f8.0, 3f8.2; VARIABLE:	 Names are deptid morale satpay female white pctbelow lev1wt lev2wt;  Usevariables are morale;  Cluster is deptid; !分组变量为deptid  Between = ; !定义组间变量  Within =;  ANALYSIS:	 Type= Twolevel; !Twolevel定义两层模型，random定义随机斜率(β1)模型  Estimator = Bayes; !定义估计方法  Biterations = (20000); !定义模型最小迭代次数为20000次  Point = Median; !</description>
@@ -126,28 +126,28 @@ TITLE:	Model 4: Explaining variation in the level-2 intercept and slope; DATA: F
     
     <item>
       <title>About me</title>
-      <link>https://zhanglj37.github.io/about/</link>
+      <link>https://lijinzhang.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/about/</guid>
+      <guid>https://lijinzhang.com/about/</guid>
       <description>.intro{ float:right; width:70%; } .photo{ float:left; width:25%; } .center{ text-align: center; justify-content: center; }      Welcome to my website! I am an incoming Ph.D. student in Developmental and Psychological Science at Stanford University, advised by Professors Ben Domingue and Jason Yeatman. My research interests focus on psychometrics and quantitative methods. Prior to Stanford, I have worked on Bayesian analysis, structural equation modeling, and network analysis with Professors Junhao Pan, Edward Ip, Xinya Liang, and Johnny Zhang.</description>
     </item>
     
     <item>
       <title>Professional Experiences</title>
-      <link>https://zhanglj37.github.io/experiences/</link>
+      <link>https://lijinzhang.com/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/experiences/</guid>
+      <guid>https://lijinzhang.com/experiences/</guid>
       <description>Content  Research Assistant Teaching Assistant Ad-hoc Reviewer Memberships Honors, Awards, and Funding  Research Assistant Psychological Statistics and Modeling Lab, Sun Yat-sen University  Guangzhou, China, 09/2017-present Website: https://panlab.xyz Advisor: Prof. Junhao Pan Research Topics: Bayesian Lasso Confirmatory Factor Analysis, Mediation and Moderation Analysis, Longitudinal Data Analysis  Lab for Big Data Methodology, University of Notre Dame  Remote, Summer, 2021 Website: https://bigdatalab.nd.edu Advisor: Prof. Zhiyong Johnny Zhang Research Topics: Text Mining, Network Analysis  Prof.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://zhanglj37.github.io/publications/</link>
+      <link>https://lijinzhang.com/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanglj37.github.io/publications/</guid>
+      <guid>https://lijinzhang.com/publications/</guid>
       <description>Content
  Book Chapters Journal Articles Conference Presentations Software Development  Research Topics
  Bayesian Lasso Confirmatory Factor Analysis:  Zhang, Pan, &amp;amp; Ip, 2021 - published in Structural Equation Modeling. Zhang et al., 2021 - published in Structural Equation Modeling. Chen et al., 2021 - published in Psychological Methods. Pan, Zhang, &amp;amp; Ip, 2021 - presented at IMPS 2021. Ip et al., 2022 - to be presented at IMPS 2022.</description>
