@@ -288,18 +288,6 @@ thead, tfoot, tr:nth-child(even) {
 }
 
 /* Tablet screens and smaller */
-.photo{
-  float:left;
-  width:26%;
-  text-align: center;
-}.intro{
-  float:right;
-  width:70%;
-}
-.center{
-text-align: center;
-justify-content: center;
-}
 
 @media screen and (max-width: 960px) {
 
@@ -430,28 +418,11 @@ justify-content: center;
     margin-top: 50px;
     margin-bottom: 0;
   }
-
-  .photo{
-    float:left;
-    width:26%;
-    text-align: center;
-  }.intro{
-    float:right;
-    width:70%;
-  }
 }
 
 /* Landscape phone screens and smaller */
 
 @media screen and (max-width: 720px) {
-  .photo{
-    width: 50%;
-    max-width:300px;
-    margin: auto;
-    text-align: center;
-  }.intro{
-    width:100%;
-  }
 }
 
 /* Portrait phone screens */
@@ -482,12 +453,4 @@ justify-content: center;
     padding-top: 0;
   }
 
-  .photo{
-    width: 50%;
-    max-width:300px;
-    margin: auto;
-    text-align: center;
-  }.intro{
-    width:100%;
-  }
 }
