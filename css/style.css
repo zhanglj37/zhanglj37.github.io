@@ -112,7 +112,7 @@ a:hover {
 }
 
 sup a {
-  border-bottom: 1px dashed;
+  border-bottom: none;
 }
 
 /* Miscellanea */
@@ -209,6 +209,14 @@ body {
 
 .masthead .menu li li::before {
   content: "•\00a\000a0\00a0"
+}
+
+#menu-check {
+  display: none;
+}
+
+#menu-label {
+  display: none;
 }
 
 /* Main */
@@ -351,13 +359,13 @@ thead, tfoot, tr:nth-child(even) {
   }
 
   .masthead .menu li li:last-child {
-    border-bottom: 1px solid;
+    border-bottom: none;
   }
 
   .masthead .menu a {
     display: block;
     padding: 15px 20px;
-    border-bottom: 1px solid;
+    border-bottom: none;
   }
 
   .masthead .menu li li a {
