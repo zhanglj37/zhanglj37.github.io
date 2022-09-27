@@ -1,5 +1,5 @@
 # zhanglj37.github.io
 
-Personal website of Lijin Zhang
+This is the personal website of Lijin Zhang
 
 https://lijinzhang.com
