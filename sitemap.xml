@@ -2,36 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lijinzhang.com/</loc>
-    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/</loc>
-    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2022-06-02-rational/</loc>
-    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2022-05-16-culture/</loc>
-    <lastmod>2022-05-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2022-05-03-infomation/</loc>
-    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2022-04-15-phd-decision/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2022-03-08-web-develop/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2022-03-03-tutorial-phd-app/</loc>
-    <lastmod>2022-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2020-06-13-itx/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lijinzhang.com/post/2019-10-24-mlm-tutorial/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lijinzhang.com/share/cos_multilevel/ex1/</loc>
   </url><url>
     <loc>https://lijinzhang.com/share/cos_multilevel/ex2/</loc>
@@ -39,6 +9,8 @@
     <loc>https://lijinzhang.com/about/</loc>
   </url><url>
     <loc>https://lijinzhang.com/categories/</loc>
+  </url><url>
+    <loc>https://lijinzhang.com/</loc>
   </url><url>
     <loc>https://lijinzhang.com/experiences/</loc>
   </url><url>
