@@ -114,14 +114,25 @@ justify-content: center;
 <img src="/fig/lijin_sf.jpg" />
 <br>
 <p>
-  <a href="#" onclick="document.getElementById('name-audio').play(); return false;">
-    How to pronounce my name
+  <a href="#" onclick="togglePronunciation(); return false;" style="font-style: italic; text-decoration: underline;">
+    How to pronounce?
   </a>
 </p>
-<audio id="name-audio">
-  <source src="https://zhanglj37.github.io/share/lijin.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
+<div id="pronunciation-box" style="display:none; margin-top: 8px;">
+  <p>
+    My first name can be pronounced as "LEE-jin" and here is a standard Chinese pronunciation:
+  </p>
+  <audio controls style="width: 100%;">
+    <source src="https://zhanglj37.github.io/share/lijin.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+<script>
+  function togglePronunciation() {
+    var box = document.getElementById('pronunciation-box');
+    box.style.display = (box.style.display === 'none') ? 'block' : 'none';
+  }
+</script>
 </div>
 <div class="intro">
 Welcome to my website! I am a Ph.D. Candidate in Developmental and Psychological Science at Stanford University, advised by Professors <a href="https://profiles.stanford.edu/benjamin-domingue">Ben Domingue</a> and <a href="https://ed.stanford.edu/faculty/jyeatman">Jason Yeatman</a>. I am also a Ph.D. Scholar at <a href="https://datascience.stanford.edu/">Stanford Data Science</a>, with my research being supported by the SDS Fellowship. 
