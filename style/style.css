@@ -78,7 +78,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding: 10px 0;
-  margin-top: 70px; /* 离页面顶部空出更多 */
+  margin-top: 80px; /* 离页面顶部空出更多 */
   position: relative;
   background-color: white;
 }
@@ -87,8 +87,8 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 .classic-nav::before {
   content: "";
   position: absolute;
-  top: -30px;
-  left: -30px;
+  top: -15px;
+  left: -15px;
   width: 20px;
   height: 20px;
   border-left: 1px solid black;
@@ -99,8 +99,8 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 .classic-nav::after {
   content: "";
   position: absolute;
-  top: -30px;
-  right: -30px;
+  top: -15px;
+  right: -15px;
   width: 20px;
   height: 20px;
   border-right: 1px solid black;
