@@ -16,7 +16,7 @@ body {
   background-size: 28%;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.04;            /* 非常淡雅 */
+  opacity: 0.03;            /* 非常淡雅 */
   z-index: -1;              /* 放在所有内容背后 */
   pointer-events: none;     /* 不影响点击行为 */
 }
