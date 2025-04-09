@@ -78,7 +78,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding: 10px 0;
-  margin-top: 50px; /* 离页面顶部空出更多 */
+  margin-top: 70px; /* 离页面顶部空出更多 */
   position: relative;
   background-color: white;
 }
@@ -114,8 +114,8 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   margin-left: 10px; /* 与左边缘留白 */
 }
 .nav-logo-text {
-  background-color: #8C1515;   /* Stanford Cardinal Red */
-  color: white;                /* White text */
+  /* background-color: #8C1515;   Stanford Cardinal Red */
+  /* color: white;                White text */
   font-weight: bold;
   font-size: 20px;
   width: 40px;
