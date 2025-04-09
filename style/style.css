@@ -1,0 +1,207 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  font-size: 17px;
+  line-height: 1.7;
+  background-color: #ffffff;  /* 或 rgba(255,255,255,0.95) */
+  position: relative;         /* 确保背景层正常显示 */
+}
+
+/* background */
+.background-logo {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: url("su2.jpeg");
+  background-size: 28%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.05;            /* 非常淡雅 */
+  z-index: -1;              /* 放在所有内容背后 */
+  pointer-events: none;     /* 不影响点击行为 */
+}
+
+
+
+
+/* header and footer areas */
+.menu { padding: 0; }
+.menu li { display: inline-block; }
+.article-meta, .menu a {
+  text-decoration: none;
+  background: #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+.menu, .article-meta, footer { text-align: center; }
+.title { font-size: 1.1em; }
+footer a { text-decoration: none; }
+hr {
+  border-style: dashed;
+  color: #ddd;
+}
+
+/* code */
+pre {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  padding: 1em;
+  overflow-x: auto;
+}
+code { background: #f9f9f9; }
+pre code { background: none; }
+
+/* misc elements */
+img, iframe, video { max-width: 100%; }
+main { hyphens: auto; }
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+
+
+
+.classic-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  margin-top: 50px; /* 离页面顶部空出更多 */
+  position: relative;
+  background-color: white;
+}
+
+/* 左上角装饰 */
+.classic-nav::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+/* 右上角装饰 */
+.classic-nav::after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+
+.nav-logo img {
+  height: 45px;  /* 或者你想要的尺寸，例如 32px、48px */
+  width: auto;   /* 保持图片原始比例 */
+  margin-left: 10px; /* 与左边缘留白 */
+}
+.nav-logo-text {
+  background-color: #8C1515;   /* Stanford Cardinal Red */
+  color: white;                /* White text */
+  font-weight: bold;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;          /* Circle shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Georgia', serif;
+  margin-right: 20px;
+}
+
+
+
+.nav-menu {
+  font-size: 18px;  
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 10px;
+  position: relative;
+}
+
+.nav-menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.nav-menu li.active a {
+  color: #8C1515; /* Stanford red */
+}
+
+
+.nav-menu li.active a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  color: #8C1515; /* Stanford red */
+}
+
+
+a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+a:hover {
+  color: #8C1515;
+}
+
+
+.responsive-img {
+  max-height: 100px;
+  height: auto;
+  width: auto;
+}
+
+
+
+#back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #8C1515;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: none;
+  transition: opacity 0.3s;
+  font-weight: bold;
+}
+#back-to-top:hover {
+  background-color: #a11b1b;
+}

@@ -1,0 +1,10 @@
+body {
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+}
+:lang(zh) {
+  font-family: "霞鹜文楷", "仿宋", serif;
+}
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 85%;
+}
