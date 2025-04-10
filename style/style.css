@@ -16,7 +16,7 @@ body {
   background-size: 30%;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.17;            /* transparent */
+  opacity: 0.15;            /* transparent */
   z-index: -1;              /* background */
   pointer-events: none;     /* do not influence pointer behavior */
 }
