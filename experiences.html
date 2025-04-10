@@ -109,20 +109,6 @@
 
 
 
- <!--li>
- **Research Topics**
- - Evaluation and enhancement of the generalizability of SEM, specifically its performance across diverse contexts
-   - [Zhang et al., 2023](#paper_2023_imv) - preprint
-   - [Zhang et al., 2024](#pre_2024_growth) - to be presented at ISDSA
-   - [Zhang & Liang, 2023](#paper_2023_mimic) - published by Psychological Methods.
- 
- - Identify model violations in latent variable modeling
-   - [Zhang et al., 2024](#paper_2024_fmm) - preprint, to be presented at IMPS
-   - [Zhang, Pan, & Ip, 2021](#paper_2021_threshold) - published by Structural Equation Modeling.
-   - [Zhang et al., 2021](#paper_2021_blcfa) - published by Structural Equation Modeling.
-   - [Chen et al., 2021](#paper_2021_pcfa) - published by Psychological Methods.
- <li-->
- 
  
  <ol>
   <h2>Education</h2>
@@ -189,7 +175,6 @@
   <h2>Memberships</h2>
   <ul>
     <li><a href="https://www.psychometricsociety.org/">Psychometric Society</a></li>
-    <li><a href="https://cosx.org/members">Capital of Statistics, China</a></li>
     <li><a href="https://www.ncme.org/home">National Council on Measurement in Education</a></li>
     <li>2025 Graduate Student Committee, Psychometric Society</li>
   </ul>
@@ -214,7 +199,7 @@
     <li>Advisor: Johnny Zhang</li>
     <li>Topics: Text Mining, Network Analysis, Longitudinal Analysis</li>
   </ul>
-  <h3>Prof. Xinya Liang’s Lab, University of Arkansas</h3>
+  <h3>Prof. Xinya Liang's Lab, University of Arkansas</h3>
   <ul>
     <li>Visiting Student (Remote), Summer 2020</li>
     <li>Advisor: Xinya Liang</li>
@@ -229,9 +214,9 @@
   
   <h3>Research Experiences on Substantive Topics</h3>
   <ul>
-    <li>2024 - present <a href="https://levante-network.org/about/">LEVANTE Project</a>, <a href="https://langcog.stanford.edu/">Language & Cognition Lab</a></li>
-    <li>2023 - present <a href="https://roar.stanford.edu/">ROAR Project</a>, <a href="https://edneuro.stanford.edu/">Brain Development & Education Lab</a></li>
-    <li>2022 - present <a href="http://chariot.stanford.edu/">Chariot Program</a>, Stanford University</li>
+    <li>2024 - present <a href="https://levante-network.org/about/">LEVANTE Project</a>, <a href="https://langcog.stanford.edu/">Language & Cognition Lab</a>, Stanford University</li>
+    <li>2023 - present <a href="https://roar.stanford.edu/">ROAR Project</a>, <a href="https://edneuro.stanford.edu/">Brain Development & Education Lab</a>, Stanford University</li>
+    <li>2022 - present <a href="http://chariot.stanford.edu/">Chariot Program</a>, Lucile Packard Children's Hospital, Stanford University</li>
     <li>2021 The Science of Well-being Institute, Guangdong, China</li>
     <li>2020 Ni Lab, Tsinghua Shenzhen International Graduate School</li>
     <li>2019 Pang Lab, School of International Relations, Sun Yat-sen University</li>
@@ -259,21 +244,88 @@
   <script src="./style/center-img.min.js" defer></script>
 
 
-  <!-- Back to top -->
-  <button onclick="scrollToTop()" id="back-to-top" title="Go to top">↑</button>
-  <script>
-    window.onscroll = function () {
-      const btn = document.getElementById("back-to-top");
-      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        btn.style.display = "block";
-      } else {
-        btn.style.display = "none";
-      }
-    };
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+<!-- Back to Top Button -->
+<button onclick="scrollToTop()" id="back-to-top" title="Go to top">
+  <div class="circle">
+    <span class="arrow">&#9650;</span>
+  </div>
+  <div class="text">TO TOP</div>
+</button>
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    background-color: white;  
+    border: none;              
+    padding: 10px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  #back-to-top .circle {
+    background-color: #8C1515; /* Cardinal Red */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+
+  /* arrow */
+  #back-to-top .arrow {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+
+  /* red text */
+  #back-to-top .text {
+    margin-top: 6px;
+    color: #8C1515;
+    font-weight: bold;
+    font-size: 12px;
+    transition: none; 
+  }
+
+  /* Hover */
+  #back-to-top:hover .circle {
+    background-color: white;
+    border: 1px solid #8C1515;
+  }
+
+  #back-to-top:hover {
+    background-color: white; 
+  }
+
+  #back-to-top:hover .arrow {
+    color: #8C1515;
+  }
+</style>
+
+<script>
+  window.onscroll = function () {
+    const btn = document.getElementById("back-to-top");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
     }
-  </script>
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
   
 
 </body>

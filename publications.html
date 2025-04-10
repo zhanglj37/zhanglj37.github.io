@@ -384,21 +384,87 @@
   <script src="./style/center-img.min.js" defer></script>
 
 
-  <!-- Back to top -->
-  <button onclick="scrollToTop()" id="back-to-top" title="Go to top">↑</button>
-  <script>
-    window.onscroll = function () {
-      const btn = document.getElementById("back-to-top");
-      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        btn.style.display = "block";
-      } else {
-        btn.style.display = "none";
-      }
-    };
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+<!-- Back to Top Button -->
+<button onclick="scrollToTop()" id="back-to-top" title="Go to top">
+  <div class="circle">
+    <span class="arrow">&#9650;</span>
+  </div>
+  <div class="text">TO TOP</div>
+</button>
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    background-color: white;  
+    border: none;              
+    padding: 10px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  #back-to-top .circle {
+    background-color: #8C1515; /* Cardinal Red */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+
+  /* arrow */
+  #back-to-top .arrow {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+
+  /* red text */
+  #back-to-top .text {
+    margin-top: 6px;
+    color: #8C1515;
+    font-weight: bold;
+    font-size: 12px;
+    transition: none; 
+  }
+
+  /* Hover */
+  #back-to-top:hover .circle {
+    background-color: white;
+    border: 1px solid #8C1515;
+  }
+
+  #back-to-top:hover {
+    background-color: white; 
+  }
+
+  #back-to-top:hover .arrow {
+    color: #8C1515;
+  }
+</style>
+
+<script>
+  window.onscroll = function () {
+    const btn = document.getElementById("back-to-top");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
     }
-  </script>
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
   
 
 </body>
