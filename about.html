@@ -184,7 +184,7 @@
 
   <!-- Visitor tracker (Cloudflare Worker) -->
   <script>
-    (function(){try{var u='https://visitor-tracker.lijinzhang.workers.dev/t',v='';try{v=localStorage.getItem('_vt')||'';if(!v){v=Math.random().toString(36).slice(2,12)+Date.now().toString(36);localStorage.setItem('_vt',v);}}catch(e){}var d=JSON.stringify({v:v,p:location.pathname+location.search,r:document.referrer,l:navigator.language,s:screen.width+'x'+screen.height,z:Intl.DateTimeFormat().resolvedOptions().timeZone});if(!(navigator.sendBeacon&&navigator.sendBeacon(u,d)))fetch(u,{method:'POST',body:d,keepalive:true,mode:'no-cors'});}catch(e){}})();
+    (function(){try{var u='https://visitor-tracker.lijinzhang.workers.dev/t',v='',m=0;try{v=localStorage.getItem('_vt')||'';if(!v){v=Math.random().toString(36).slice(2,12)+Date.now().toString(36);localStorage.setItem('_vt',v);}var q=location.search.match(/[?&]me(=([^&]*))?(&|$)/);if(q)q[2]==='0'?localStorage.removeItem('_vt_me'):localStorage.setItem('_vt_me','1');m=localStorage.getItem('_vt_me')==='1'?1:0;}catch(e){}var d=JSON.stringify({v:v,m:m,p:location.pathname+location.search,r:document.referrer,l:navigator.language,s:screen.width+'x'+screen.height,z:Intl.DateTimeFormat().resolvedOptions().timeZone});if(!(navigator.sendBeacon&&navigator.sendBeacon(u,d)))fetch(u,{method:'POST',body:d,keepalive:true,mode:'no-cors'});}catch(e){}})();
   </script>
   <noscript><img src="https://visitor-tracker.lijinzhang.workers.dev/p.gif" width="1" height="1" alt="" style="position:absolute;left:-9999px"></noscript>
 
